@@ -14,6 +14,7 @@ Central source of truth for SoluteLabs brand voice, positioning, and content gui
 
 ### Content
 - [Content Playbook](content/content-playbook.md) — Strategy, templates, SEO/LLM optimization, pre-publish checklist
+- [Testimonials](content/testimonials.md) — Client quotes (Clutch) and video testimonials (YouTube), organized by theme
 
 ## How to use this repo
 
@@ -22,6 +23,7 @@ Central source of truth for SoluteLabs brand voice, positioning, and content gui
 3. **Targeting a specific persona?** Check [ICP & Messaging](positioning/icp-and-messaging.md) for persona-specific angles.
 4. **Producing content?** Use the [Content Playbook](content/content-playbook.md) for templates, hub-and-spoke strategy, and the pre-publish checklist.
 5. **Writing as Karan?** Read [Karan's Voice](brand/karan-voice.md) for his patterns, real examples, and content pillars.
+6. **Need social proof?** Pull quotes from [Testimonials](content/testimonials.md) — organized by theme (judgment, quality, reliability, speed).
 
 ## Contributing
 
