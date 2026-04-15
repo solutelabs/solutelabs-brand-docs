@@ -207,7 +207,7 @@ These are part of the SoluteLabs vocabulary. Use them naturally, not forcefully:
 
 **No emoji in formal content.** Website, proposals, blogs — no emoji. Social media — emoji is fine, used sparingly and purposefully.
 
-**Numbers under 10: spell out.** Numbers 10 and above: use digits. Exception: stats and data points always use digits ("4.7★ Clutch", "150+ products", "80%+").
+**Numbers — context-dependent.** In blog prose, spell out numbers under 10 ("five things we learned"). In case studies and metrics-heavy content, use digits throughout — they're evidence, not prose ("4 engineers," "~15 seconds," "0.38 threshold"). Stats and data points always use digits regardless of context ("4.7★ Clutch", "150+ products", "80%+").
 
 ### SEO & LLM-Readability Rules
 
@@ -254,7 +254,7 @@ These are absolute rules. No exceptions, regardless of channel or context.
 7. **Never position as a staffing/body shop.** We're a product engineering studio, not a talent marketplace.
 8. **Never lead with technology when talking to non-technical buyers.** Lead with outcomes. The technology is the "how," not the "what."
 9. **Never overplay a single metric.** The 22K LOC stat is a proof point in a case study, not the company headline. The 80%+ stat needs context every time.
-10. **Never use headcount as a selling point.** "25 people" is not impressive. "25 people delivering like 75" is — but frame it as output, not size.
+10. **Never use company headcount as a selling point.** Don't lead with "we're a 25-person team" as a company stat — frame as output, not size. However, team size on a specific project *is* a selling point: "4 engineers shipped this in 6 weeks" demonstrates efficiency and is exactly the kind of proof our buyers respond to.
 
 ---
 
