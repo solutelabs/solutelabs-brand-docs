@@ -48,7 +48,7 @@ NEVER modify without Karan's explicit approval:
 
 ## Domain Knowledge
 
-- **Gen 3 engineering** — SoluteLabs' term for their AI-native development process (Plan → Execute → Verify with multi-agent orchestration)
+- **The Agentic Harness** — SoluteLabs' four-layer engineering process: INFORM → SPEC → BUILD → VERIFY. This is how we explain our differentiation.
 - **The harness** — Their agentic development stack built around Claude Code, CLAUDE.md files, and spec-driven development
 - **Willingness to refer** — Replaces "referral rate." Every client would refer SoluteLabs. This is not the same as "every client came from referral."
 - **Front Door** — The externally-facing positioning statement used in cold contexts. Different from the core philosophy, which is used after trust is established.

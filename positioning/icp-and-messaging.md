@@ -113,7 +113,7 @@ Disqualify early (and do it kindly — as we have since 2014) if:
 
 **Goal:** Win the credibility and trust evaluation. Differentiate on judgment and process, not just price or speed.
 
-**Message:** "Here's exactly how we work. Here's what Gen 3 engineering means in practice. Here's a client who can tell you what it was like."
+**Message:** "Here's exactly how we work. Here's what the Agentic Harness means in practice. Here's a client who can tell you what it was like."
 
 **Channels:** Website, proposals, case studies, intro calls, client references
 

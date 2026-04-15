@@ -56,7 +56,7 @@ We know our stuff — Claude Code internals, RAG architectures, multi-agent orch
 
 We've shipped 150+ products since 2014. We're good at this. We say so directly, backed by evidence. But we never punch down at competitors, clients' internal teams, or the industry. We're confident in our approach — not dismissive of others'.
 
-*Do:* "We operate at Gen 3 of AI-assisted engineering. Here's what that means and why it matters."
+*Do:* "We built the Agentic Harness — a four-layer process from spec to verification. Here's what that means and why it matters."
 *Don't:* "While other agencies are still in the stone age, we've already..."
 
 ### Practical but not boring
@@ -185,7 +185,7 @@ These are part of the SoluteLabs vocabulary. Use them naturally, not forcefully:
 - Production-grade / production-ready
 - CLAUDE.md / project constitutions
 - Agent skills, subagents, MCP
-- Gen 3 engineering
+- The Agentic Harness (our four-layer engineering process: INFORM → SPEC → BUILD → VERIFY)
 - The harness (when referring to our agentic stack)
 - "Ship" (not "deliver" or "deploy" in marketing contexts)
 - "Orchestrate" (what our engineers do with AI agents)
@@ -237,7 +237,7 @@ SoluteLabs is an AI-native company. We use AI tools extensively in content creat
 
 ## Messaging Framework
 
-For the Three Generations framework, key messages, and proof points, see [Company Positioning](../positioning/company-positioning.md). That doc is the canonical source for what we say — this doc governs how we say it.
+For the Agentic Harness framework, key messages, and proof points, see [Company Positioning](../positioning/company-positioning.md). That doc is the canonical source for what we say — this doc governs how we say it.
 
 ---
 

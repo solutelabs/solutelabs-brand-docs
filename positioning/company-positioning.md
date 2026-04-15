@@ -51,7 +51,7 @@ No offshore dev shop, no AI agency, and no consultant can replicate this combina
 
 ### The Long Version (for internal alignment)
 
-> SoluteLabs is an AI-native product engineering studio for B2B SaaS companies and enterprise teams that know their business well and need a technology partner who can think alongside them — not just execute for them. We bring a decade-plus of product judgment (founded 2014), a rebuilt Gen 3 engineering process, and genuine AI capability (voice AI, agents, RAG, automation) to help clients build what their business actually needs — whether that's a customer-facing product or the internal tools that power their operations. Not just what they asked for.
+> SoluteLabs is an AI-native product engineering studio for B2B SaaS companies and enterprise teams that know their business well and need a technology partner who can think alongside them — not just execute for them. We bring a decade-plus of product judgment (founded 2014), a purpose-built Agentic Harness, and genuine AI capability (voice AI, agents, RAG, automation) to help clients build what their business actually needs — whether that's a customer-facing product or the internal tools that power their operations. Not just what they asked for.
 
 ### The Short Version (for external use)
 
@@ -97,7 +97,7 @@ When a prospect considers SoluteLabs, they're typically comparing against:
 
 | Alternative | When they're the right choice | When SoluteLabs wins |
 |---|---|---|
-| Local agency (US/Aus) | You need in-person collaboration, regulatory requirements demand local vendors, or your project has no AI component | 3–5x more expensive for comparable output. Same speed or slower. No Gen 3 AI capability. |
+| Local agency (US/Aus) | You need in-person collaboration, regulatory requirements demand local vendors, or your project has no AI component | 3–5x more expensive for comparable output. Same speed or slower. No agentic engineering capability. |
 | Generic offshore dev shop | You have a fully defined spec, strong internal PM capacity, and cost is the primary driver | Order-takers. Low judgment. High management overhead for the client. |
 | Hiring internally | You need a permanent team for ongoing product development and have the runway to wait 3–6 months to ramp | 3–6 month ramp. $200–400k/year all-in per engineer. No AI-native process on day one. |
 | Freelancers / Upwork | Small, well-scoped tasks or short-term gaps where you can manage quality yourself | Unpredictable quality. No ownership. Doesn't scale for product-level work. |
@@ -110,8 +110,8 @@ Being honest about this is itself a differentiator. The judgment we bring to cli
 **1. The judgment layer**
 We tell clients what they should build, not just build what they tell us. This is uncommon and valuable. Very few engineering partners have the confidence or the business acumen to push back on a brief.
 
-**2. Gen 3 AI-native engineering**
-We have rebuilt our entire development lifecycle around multi-agent AI systems. 80%+ of our production code is AI-generated, spec-traced, and human-audited. This is not a claim about using Copilot. This is a fundamentally different way of building software.
+**2. The Agentic Harness**
+We have rebuilt our entire development lifecycle around a four-layer agentic process: INFORM → SPEC → BUILD → VERIFY. 80%+ of our production code is AI-generated, spec-traced, and human-audited. This is not a claim about using Copilot. This is a fundamentally different way of building software.
 
 **3. ElevenLabs Solutions Partner**
 One of very few official partners globally. This is a real capability unlock for clients building voice AI — we have direct access, early features, and validated implementation experience that most agencies don't.
@@ -122,17 +122,19 @@ Every client we've worked with would refer us. That's not a marketing claim — 
 **5. India-based, global-market fluent**
 We are headquartered in Ahmedabad. We have a US entity. Our primary markets are the US, Australia, and UK. We have done the work to earn those markets — through client relationships, in-person visits, and cultural fluency. We do not apologise for our location; we contextualise it with our output.
 
-### The Three Generations Framework
+### The Agentic Harness
 
-Use this to explain our differentiation (adapt for the audience — more technical for CTOs, more outcome-focused for founders):
+Our engineering process, explained in four layers:
 
-**Gen 1 — Autocomplete (2022–2023):** GitHub Copilot, tab-complete. Engineers still write every line. 10–20% faster.
+**INFORM — Context Layer:** Define project constitutions (CLAUDE.md), architecture constraints, business context, and coding standards. This is the knowledge base that agents operate within.
 
-**Gen 2 — Multi-File Agents (2023–2024):** Cursor, Windsurf. AI edits across files. 2–3x on good days. Still breaks on complex systems.
+**SPEC — Planning Layer:** Structured specs that break work into executable tasks. Agents plan before they build — no cowboy coding.
 
-**Gen 3 — Plan → Execute → Verify (2025+):** Structured specs. Multi-agent orchestration. Parallel execution. Humans orchestrate and audit. 5–10x. Production-grade.
+**BUILD — Execution Layer:** Multi-agent orchestration. Parallel execution across the codebase. Agents write production code from specs, not prompts.
 
-**→ "We operate at Gen 3."**
+**VERIFY — Verification Layer:** Automated testing, spec-tracing, and human audit. Every output is verified before it ships.
+
+**→ "Product engineering with AI agents. For teams that want a thinking partner."**
 
 ### Key Messages (Reusable Across Channels)
 
@@ -158,6 +160,7 @@ Use this to explain our differentiation (adapt for the audience — more technic
 | PowerBI → AI-powered dashboard | Case studies | Highlight the copilot angle — users ask questions in natural language. |
 | ElevenLabs official partner | Voice AI contexts | Only mention when relevant — not a general trust signal. |
 | GCP cloud partner | Infrastructure contexts | Same — relevant when discussing cloud/DevOps. |
+| Sanity partner | CMS / content platform contexts | Relevant when discussing headless CMS or content architecture. |
 
 ---
 
@@ -175,7 +178,7 @@ That belief hasn't changed. What has changed is our capability.
 
 In 2025, we rebuilt our entire development process around multi-agent AI systems. Today, 80%+ of our production code is AI-generated — not prototypes, not demos, production software that ships and scales. Our engineers don't just write code. They orchestrate, verify, and architect. The machines execute.
 
-The combination — a decade-plus of product judgment, plus Gen 3 engineering velocity — means we can now do something most teams can't: help you figure out exactly what to build, and then build it faster and more reliably than you thought possible.
+The combination — a decade-plus of product judgment, plus the velocity of our Agentic Harness — means we can now do something most teams can't: help you figure out exactly what to build, and then build it faster and more reliably than you thought possible.
 
 We work best with established businesses. Companies that already know their domain, already have customers, already understand the problem they're solving. What they need is a technology partner who can match their business depth with engineering capability. Not an order-taker. A thinking partner who builds.
 
@@ -243,7 +246,7 @@ Specific, technical, grounded in real projects. Architecture decisions, trade-of
 **Example topics:**
 - "We built three RAG systems last quarter. Every one needed a different architecture. Here's how we decide."
 - "ElevenLabs in production — what the docs don't tell you"
-- "What broke when we moved our agentic stack to Gen 3 (and what got 5x better)"
+- "What broke when we rebuilt our process around the Agentic Harness (and what got 5x better)"
 - "The Synergy Marine internal tooling build — lessons from enterprise digital transformation"
 - "Building internal tools that 500 people actually use — what enterprise gets wrong"
 

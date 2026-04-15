@@ -17,7 +17,7 @@ Structure all content using a hub-and-spoke model. Each messaging pillar (see [C
 
 ### Example — Pillar 2 (Builder's POV)
 
-- **Hub:** "How We Build AI Products — Our Gen 3 Engineering Process"
+- **Hub:** "How We Build AI Products — The Agentic Harness"
 - **Spokes:**
   - "We built three RAG systems last quarter — here's how we decide architecture"
   - "ElevenLabs in production — what the docs don't tell you"
