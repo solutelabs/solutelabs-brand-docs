@@ -158,17 +158,62 @@ Our engineering process, explained in four layers:
 
 ### Proof Points
 
-| Proof Point | Where to Use | How to Frame |
-|-------------|-------------|--------------|
-| 22,000 LOC in under a week (Angular 9 → Next.js) | Case studies, blog, proposals | One proof point among many. Not the headline. Include context. |
-| 80%+ code AI-generated | Homepage, service pages, social | Always add context: "on new projects" and "production-grade, spec-traceable, human-audited" |
-| 150+ products shipped | Trust signals, proposals, footer | Earned credibility. Use alongside other stats. |
-| Founded in 2014 | Trust signals | Especially important for enterprise buyers and procurement teams. |
-| 4.7★ Clutch / 100% willingness to refer | Social proof sections, proposals | Willingness to refer is the trust signal — frame it as client satisfaction, not acquisition channel. |
-| PowerBI → AI-powered dashboard | Case studies | Highlight the copilot angle — users ask questions in natural language. |
-| ElevenLabs official partner | Voice AI contexts | Only mention when relevant — not a general trust signal. |
-| GCP cloud partner | Infrastructure contexts | Same — relevant when discussing cloud/DevOps. |
-| Sanity partner | CMS / content platform contexts | Relevant when discussing headless CMS or content architecture. |
+#### Company Stats
+
+| Stat | How to Frame |
+|------|-------------|
+| Founded in 2014 | Especially important for enterprise buyers and procurement teams. |
+| 150+ products shipped | Earned credibility. Use alongside other stats. |
+| 4.7★ Clutch rating | Verified reviews — link to Clutch profile when possible. |
+| 100% willingness to refer | Frame as client satisfaction, not acquisition channel. |
+| 80%+ code AI-generated | Always add context: "on new projects" and "production-grade, spec-traceable, human-audited" |
+
+#### Partnerships
+
+| Partner | When to mention |
+|---------|----------------|
+| ElevenLabs Solutions Partner | Voice AI contexts only. Real capability unlock — direct access, early features, validated implementation. |
+| Google Cloud Partner | Infrastructure and cloud/DevOps contexts. |
+| Sanity Agency Partner | Headless CMS and content architecture contexts. |
+
+#### Case Studies (Use by Service Line)
+
+**AI Agents & Copilots**
+- Smart Store Assistant — AI-powered store assistant combining search and conversational AI for a global retail brand
+- PowerBI → AI-powered dashboard — users ask questions in natural language (copilot angle)
+
+**AI-Native Product Engineering**
+- Amagi — award-winning product engineering for a media SaaS unicorn
+- Reelo — marketing automation platform rebuilt from scratch, now powering 2M+ customers
+- Modulus Finance — product engineering for world's leading technical charting library (FinChartX)
+- NDTV Profit — building the future of news with India's leading business channel
+
+**Conversational & Voice AI**
+- Pharmacogenetics Platform — secure voice-AI agents for real-time healthcare, HIPAA-ready
+- ElevenLabs production builds — validated implementation experience as official partner
+
+**Enterprise Knowledge Systems**
+- Roche Japan — app modernization from legacy Excel macros to cloud-native. Ongoing partnership since 2021 across multiple initiatives and geographies.
+- Roche Cobas — HL7 data conversion tool for offline-first lab report creation
+
+**AI Automation & Workflow Intelligence**
+- IVY Mobility — CV/ML solution for product stacking intelligence in retail stores
+- FSI AssetCONNECT — digitizing fire suppression system management and predictive maintenance
+
+**Digital Transformation & Modernization**
+- Synergy Marine Group — digital transformation for the world's third-largest maritime company. Technical, commercial, and crew management apps.
+- Peepul Tree — eCommerce app modernization, contributing to $6M seed round
+- OddsNow — Next.js + Sanity CMS migration. 1,500+ articles migrated, 1,500+ SEO redirects.
+- 22,000 LOC Angular 9 → Next.js migration in under a week (use as one proof point among many, not the headline)
+
+**HealthTech**
+- AllDayDr — online pharmacy and real-time telemedicine with NHS integration
+- Memory Machine — cognitive support platform bridging patients, caregivers, and healthcare professionals
+- EVVA — care management solution for dementia patients
+- XY AI — UX strategy for AI-driven health/environment/lifestyle insights
+
+**Other Verticals**
+- Stir Crazy Kids (EdTech) — school canteen ordering platform deployed across 33 schools
 
 ---
 
