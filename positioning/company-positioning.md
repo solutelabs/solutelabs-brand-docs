@@ -45,6 +45,14 @@ This is why our clients describe us in language like:
 
 No offshore dev shop, no AI agency, and no consultant can replicate this combination of business understanding + technical execution + genuine investment in outcomes. This is our real moat.
 
+### What We Build
+
+1. **AI Agents & Copilots** — Custom agents and copilot interfaces that automate workflows, assist users, and make decisions within your product or operations.
+2. **AI-Native Product Engineering** — Full-stack product builds using the Agentic Harness. New products from scratch or modernizing legacy systems.
+3. **Conversational & Voice AI** — Voice agents, chatbots, and conversational interfaces. ElevenLabs Solutions Partner.
+4. **Enterprise Knowledge Systems** — RAG pipelines, knowledge bases, and internal search tools that make organizational knowledge accessible and actionable.
+5. **AI Automation & Workflow Intelligence** — Automating repetitive processes, data pipelines, and operational workflows with AI.
+
 ---
 
 ## 3. Core Positioning Statement
