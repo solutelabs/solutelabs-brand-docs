@@ -32,7 +32,7 @@ Voice layer     → this file (design rules + copy guidance)
 
 ### Visual identity
 
-1. **Dark mode only (v1).** Page background is `bg-surface` (`#171717`). Do not output white-background UIs.
+1. **Dark by default.** Page background is `bg-surface` (`#171717`). For light slides, decks, or print, add `class="light"` to the container — all semantic tokens flip automatically. See `tokens.md` for the full mapping.
 
 2. **Archivo for titles, Manrope for body.** Not Inter. Not Geist. Not Space Grotesk. Fallback: `system-ui`.
 
@@ -165,7 +165,6 @@ If you need a component not documented here (toast, dropdown, table):
 
 ## Version
 
-**v1.0** — Dark mode only. Semantic tokens + 3 core components. Derived from Figma file `Website-2025` (frame V4).
+**v1.1** — Dark + light mode tokens. 3 core components. Client/partner logos. Derived from Figma file `Website-2025` (frame V4).
 
-Planned v1.x: error/success/warning tokens, dropdown, checkbox/radio, nav/footer.
-Planned v2: light mode (after Figma design is complete).
+Planned v1.x: error/success/warning tokens, dropdown, checkbox/radio, nav/footer, slide layouts.

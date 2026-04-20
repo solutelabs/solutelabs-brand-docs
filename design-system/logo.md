@@ -12,8 +12,8 @@ Logo assets, usage rules, and animation specs. All source files are in `assets/`
 |---|---|---|
 | `assets/logo-wordmark.svg` | Full wordmark "SoluteLabs_" in purple (`#6622CB`) | Light backgrounds, white pages |
 | `assets/logo-wordmark-white.svg` | Full wordmark in magnolia white (`#FBF6FF`) | Dark backgrounds (`#171717`), hero sections |
-| `assets/logo-icon.svg` | S-mark icon (purple + dark purple + white) | Favicon context, app icons, compact spaces |
-| `assets/logo-symbol.svg` | Large S-mark symbol (same shape, larger viewBox) | Hero illustrations, splash screens |
+| `assets/logo-icon.svg` | Flat S-mark icon (purple bg, two white shapes) | Favicon context, app icons, compact spaces |
+| `assets/logo-symbol.svg` | Large S-mark with rounded corners (512px, app icon shape) | App icons, splash screens |
 
 ### Meta / social
 

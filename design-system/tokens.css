@@ -141,3 +141,32 @@
   --sl-container-gutter: 1rem;      /* 16px */
   --sl-container-gutter-lg: 1.5rem; /* 24px */
 }
+
+/* ---------- Light mode ---------- */
+/* Activate with class="light" or data-theme="light" on any element.
+   Use for: decks, print, proposals, documents. Website stays dark. */
+
+.light,
+[data-theme="light"] {
+  --sl-surface: var(--sl-white);                /* #FFFFFF */
+  --sl-surface-raised: var(--sl-magnolia);      /* #FBF6FF */
+  --sl-surface-accent: var(--sl-fresh-purple);  /* #6622CB */
+
+  --sl-foreground: var(--sl-charcoal);          /* #171717 */
+  --sl-foreground-muted: var(--sl-grey-400);    /* #374252 */
+  --sl-foreground-faint: var(--sl-grey-300);    /* #475569 */
+  --sl-foreground-accent: var(--sl-purple-300); /* #4D1A98 */
+  --sl-foreground-inverse: var(--sl-white);     /* #FFFFFF */
+
+  --sl-edge: var(--sl-grey-200);               /* #E2E8F0 */
+  --sl-edge-subtle: var(--sl-grey-100);        /* #F1F5F9 */
+  --sl-edge-strong: var(--sl-grey-300);        /* #475569 */
+
+  --sl-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --sl-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --sl-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
+  --sl-shadow-glow: 0 0 120px rgba(102, 34, 203, 0.15);
+
+  background: var(--sl-surface);
+  color: var(--sl-foreground);
+}

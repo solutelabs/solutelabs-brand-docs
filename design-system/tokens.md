@@ -254,9 +254,58 @@ Content never exceeds 1440px. Background effects (glows, gradients) extend to vi
 
 ---
 
-## What's not in v1
+## Light mode
 
-- Light mode tokens (v2, after Figma design)
+Activate with `class="light"` or `data-theme="light"` on any container. All semantic tokens flip automatically — component code stays the same.
+
+**When to use:** Decks, print, proposals, documents, light slides. The website stays dark.
+
+```html
+<!-- Dark (default) -->
+<div>
+  <h1 class="text-foreground">Dark slide</h1>
+</div>
+
+<!-- Light -->
+<div class="light">
+  <h1 class="text-foreground">Light slide — same class, white bg, dark text</h1>
+</div>
+```
+
+### What changes
+
+| Token | Dark value | Light value |
+|---|---|---|
+| `surface` | `#171717` (charcoal) | `#FFFFFF` (white) |
+| `surface-raised` | `#1F1F1F` (elevated black) | `#FBF6FF` (magnolia) |
+| `surface-accent` | `#6622CB` | `#6622CB` (unchanged) |
+| `foreground` | `#FFFFFF` (white) | `#171717` (charcoal) |
+| `foreground-muted` | `white/80%` | `#374252` (grey-400) |
+| `foreground-faint` | `white/60%` | `#475569` (grey-300) |
+| `foreground-accent` | `#C2A7EA` (purple-200) | `#4D1A98` (purple-300) |
+| `foreground-inverse` | `#171717` | `#FFFFFF` |
+| `edge` | `white/15%` | `#E2E8F0` (grey-200) |
+| `edge-subtle` | `white/10%` | `#F1F5F9` (grey-100) |
+| `edge-strong` | `white/30%` | `#475569` (grey-300) |
+
+### What stays the same
+
+- `accent-primary` (`#6622CB`) and `accent-secondary` (`#FF4D00`) — brand accents don't flip
+- `surface-accent` — purple sections are purple in both modes
+- All typography, spacing, radius, and layout tokens
+- Component structure and class names
+
+### Light mode notes
+
+- **Shadows are lighter.** Dark mode barely uses shadows; light mode uses subtle ones for card lift.
+- **Cards use magnolia** (`#FBF6FF`), not plain white. This gives them a subtle purple warmth against the white page.
+- **Purple accent text shifts to `purple-300`** (`#4D1A98`) — dark enough to read on white while still reading as purple.
+- **The primary button stays white `bg-white`** in dark mode. In light mode, consider using `bg-accent-primary` (purple) with `text-foreground-inverse` (white text) for the primary CTA. This is a context decision, not a token flip.
+
+---
+
+## What's not yet tokenized
+
 - Error/success/warning states (add with first form UI)
 - Focus ring tokens (use `outline-2 outline-accent-primary outline-offset-2` as placeholder)
 - Breakpoint overrides (Tailwind defaults: `sm`, `md`, `lg`, `xl`, `2xl`)

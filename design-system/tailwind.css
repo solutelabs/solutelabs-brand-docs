@@ -1,8 +1,14 @@
 /* ============================================================
-   SoluteLabs Design System — Tailwind v4 Theme (v1, dark mode)
+   SoluteLabs Design System — Tailwind v4 Theme (v1.1)
 
    Drop this into your globals.css. Requires Tailwind v4.
    Load Archivo + Manrope via next/font or @font-face (self-hosted).
+
+   Modes:
+   - Dark (default) — website, dark slides, dark UIs
+   - Light           — decks, print, light slides
+   - Activate light mode with class="light" or data-theme="light"
+     on any container. Tokens flip automatically.
 
    Naming rules:
    - Surface colors use `surface-*` prefix  → bg-surface, bg-surface-raised
@@ -159,5 +165,51 @@
 
   p {
     letter-spacing: var(--tracking-wide);
+  }
+}
+
+/* ============================================================
+   Light mode overrides
+   Activate with class="light" or data-theme="light" on any element.
+   Only semantic tokens change — primitives, type scale, spacing stay the same.
+
+   Use for: decks, print, light slides, proposals, documents.
+   The website stays dark. Light mode is for collateral.
+   ============================================================ */
+
+@layer base {
+  .light,
+  [data-theme="light"] {
+    /* Surfaces */
+    --color-surface: #FFFFFF;
+    --color-surface-raised: #FBF6FF;          /* magnolia — subtle purple tint */
+    --color-surface-accent: #6622CB;          /* purple stays purple */
+
+    /* Foreground */
+    --color-foreground: #171717;              /* charcoal on white */
+    --color-foreground-muted: #374252;        /* grey-400 */
+    --color-foreground-faint: #475569;        /* grey-300 */
+    --color-foreground-accent: #4D1A98;       /* purple-300 — dark enough on white */
+    --color-foreground-inverse: #FFFFFF;      /* white on dark/purple surfaces */
+
+    /* Edges */
+    --color-edge: #E2E8F0;                   /* grey-200 */
+    --color-edge-subtle: #F1F5F9;            /* grey-100 */
+    --color-edge-strong: #475569;            /* grey-300 */
+    --color-edge-accent: #6622CB;            /* same */
+    --color-edge-highlight: #FF4D00;         /* same */
+
+    /* Accents unchanged */
+    --color-accent-primary: #6622CB;
+    --color-accent-secondary: #FF4D00;
+
+    /* Shadows — lighter for white surfaces */
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.06);
+    --shadow-md: 0 4px 12px rgb(0 0 0 / 0.08);
+    --shadow-lg: 0 12px 32px rgb(0 0 0 / 0.12);
+    --shadow-glow: 0 0 120px rgb(102 34 203 / 0.15);
+
+    background: var(--color-surface);
+    color: var(--color-foreground);
   }
 }
