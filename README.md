@@ -4,6 +4,13 @@ Central source of truth for SoluteLabs brand voice, positioning, and content gui
 
 ## What's here
 
+### Design System (start here for UI work)
+- [Design System README](design-system/README.md) — LLM entry point: rules, voice, patterns, quick start
+- [Tokens (docs)](design-system/tokens.md) — Colors, typography, spacing with intent and Tailwind mappings
+- [Tokens (CSS)](design-system/tokens.css) — Plain CSS custom properties for any stack
+- [Tokens (Tailwind v4)](design-system/tailwind.css) — `@theme` block for Tailwind v4 projects
+- [Components](design-system/components.md) — Button, Card, Input — full specs with all states
+
 ### Brand
 - [Brand Voice](brand/brand-voice.md) — How SoluteLabs sounds across all channels
 - [Karan's Voice](brand/karan-voice.md) — Karan's personal writing style, tone, and real examples

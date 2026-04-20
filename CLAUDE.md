@@ -9,6 +9,14 @@ SoluteLabs is an AI-native product engineering studio. Founded in 2014. Headquar
 ## Repo Structure
 
 ```
+design-system/
+  README.md               — LLM entry point: visual rules, voice, common patterns
+  tokens.md               — Token docs: colors, type, spacing with intent + Tailwind class mappings
+  tokens.css              — Plain CSS custom properties (non-Tailwind consumers)
+  tailwind.css            — Tailwind v4 @theme block (primary code generation target)
+  components.md           — Button, Card, Input: full specs with all states
+  llms.txt                — LLM discovery file (index of all design system + brand files)
+
 brand/
   brand-voice.md          — Voice principles, tone by channel, language rules, writing standards
   karan-voice.md          — Karan Shah's personal voice, real LinkedIn examples, content pillars
@@ -23,6 +31,8 @@ content/
 
 ## How to Use These Files
 
+- **Generating UI code:** Load `design-system/README.md` for rules, then `design-system/tailwind.css` for the theme
+- **Need component specs:** Load `design-system/components.md` for Button, Card, Input with all states
 - **Writing SoluteLabs content:** Load `brand/brand-voice.md` for voice and tone rules
 - **Writing as Karan:** Load `brand/karan-voice.md` for his personal patterns and examples
 - **Need positioning or messaging context:** Load `positioning/company-positioning.md`

@@ -1,0 +1,163 @@
+/* ============================================================
+   SoluteLabs Design System — Tailwind v4 Theme (v1, dark mode)
+
+   Drop this into your globals.css. Requires Tailwind v4.
+   Load Archivo + Manrope via next/font or @font-face (self-hosted).
+
+   Naming rules:
+   - Surface colors use `surface-*` prefix  → bg-surface, bg-surface-raised
+   - Foreground colors use `foreground-*`   → text-foreground, text-foreground-muted
+   - Edge colors use `edge-*` prefix        → border-edge, border-edge-subtle
+   - This avoids the bg-bg-* / text-text-* / border-border-* double-prefix trap
+   ============================================================ */
+
+@import "tailwindcss";
+
+@theme {
+  /* ---------- Fonts ---------- */
+  --font-title: 'Archivo', system-ui, -apple-system, sans-serif;
+  --font-body: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, sans-serif;
+
+  /* ---------- Colors: brand primitives ---------- */
+  /* Raw palette. Use in one-off expressions or gradients.
+     For component backgrounds/text/borders, prefer semantic tokens below. */
+  --color-fresh-purple: #6622CB;
+  --color-bright-orange: #FF4D00;
+  --color-charcoal: #171717;
+  --color-white: #FFFFFF;
+
+  --color-purple-100: #E2CFFF;
+  --color-purple-200: #C2A7EA;
+  --color-purple-300: #4D1A98;
+
+  --color-magnolia: #FBF6FF;
+  --color-grey-100: #F1F5F9;
+  --color-grey-200: #E2E8F0;
+  --color-grey-300: #475569;
+  --color-grey-400: #374252;
+
+  /* ---------- Colors: semantic surfaces (use with bg-*) ---------- */
+  /* bg-surface       → page background
+     bg-surface-raised → cards, modals, elevated panels
+     bg-surface-accent → purple hero sections, accent blocks */
+  --color-surface: #171717;
+  --color-surface-raised: #1F1F1F;
+  --color-surface-accent: #6622CB;
+
+  /* ---------- Colors: semantic foreground (use with text-*) ---------- */
+  /* text-foreground         → headlines, primary copy
+     text-foreground-muted   → body paragraphs, descriptions
+     text-foreground-faint   → captions, metadata, muted labels
+     text-foreground-accent  → inline purple emphasis, stats highlights
+     text-foreground-inverse → dark text on white/light surfaces (primary button) */
+  --color-foreground: #FFFFFF;
+  --color-foreground-muted: rgb(255 255 255 / 0.8);
+  --color-foreground-faint: rgb(255 255 255 / 0.6);
+  --color-foreground-accent: #C2A7EA;
+  --color-foreground-inverse: #171717;
+
+  /* ---------- Colors: semantic edges (use with border-*) ---------- */
+  /* border-edge         → standard card borders, input borders
+     border-edge-subtle  → barely-there dividers, faint card outlines
+     border-edge-strong  → emphasized borders, focus-adjacent states
+     border-edge-accent  → active/selected state (purple)
+     border-edge-highlight → featured cards, selected items (orange) */
+  --color-edge: rgb(255 255 255 / 0.15);
+  --color-edge-subtle: rgb(255 255 255 / 0.1);
+  --color-edge-strong: rgb(255 255 255 / 0.3);
+  --color-edge-accent: #6622CB;
+  --color-edge-highlight: #FF4D00;
+
+  /* ---------- Colors: accent (multi-use) ---------- */
+  --color-accent-primary: #6622CB;
+  --color-accent-secondary: #FF4D00;
+
+  /* ---------- Typography scale ---------- */
+  /* Custom sizes that DON'T override Tailwind defaults (text-xs, text-sm, etc.).
+     These use descriptive names so there's no mental-model conflict.
+     Each includes a paired line-height.
+
+     Tailwind's built-in text-xs (12px), text-sm (14px), text-base (16px)
+     remain available for genuinely small UI text. */
+
+  --text-label: 1rem;                /* 16px — button labels, compact UI text */
+  --text-label--line-height: 1rem;   /* 16px */
+
+  --text-body: 1.125rem;             /* 18px — default paragraph copy */
+  --text-body--line-height: 1.875rem; /* 30px */
+
+  --text-lead: 1.25rem;             /* 20px — lead paragraphs, larger body */
+  --text-lead--line-height: 2.125rem; /* 34px */
+
+  --text-title-sm: 1.375rem;        /* 22px — eyebrow-adjacent headings */
+  --text-title-sm--line-height: 2.25rem; /* 36px */
+
+  --text-title: 1.5rem;             /* 24px — card titles, section subheads */
+  --text-title--line-height: 2.5rem; /* 40px */
+
+  --text-title-lg: 1.75rem;         /* 28px — h3 */
+  --text-title-lg--line-height: 2.75rem; /* 44px */
+
+  --text-heading: 2rem;             /* 32px — h2, section headings */
+  --text-heading--line-height: 3.75rem; /* 60px */
+
+  --text-hero: 2.5rem;              /* 40px — h1 */
+  --text-hero--line-height: 3.5rem;  /* 56px */
+
+  --text-display: 3rem;             /* 48px — hero headline, display */
+  --text-display--line-height: 3.5rem; /* 56px */
+
+  /* ---------- Letter spacing ---------- */
+  /* Overrides Tailwind defaults (tight: -0.025em → -0.02em, wide: 0.025em → 0.01em).
+     These are closer to what our Figma file uses. */
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.01em;
+  --tracking-eyebrow: 0.08em;
+
+  /* ---------- Spacing ---------- */
+  /* Tailwind v4 calculates spacing dynamically: p-N = calc(0.25rem * N).
+     This means p-2.5 = 10px, p-4.5 = 18px, p-30 = 120px — all work natively.
+     We add ONE custom value for the section-level spacing (120px) as a named alias. */
+  --spacing-section: 7.5rem; /* 120px — between top-level page sections */
+
+  /* ---------- Radius ---------- */
+  /* These override Tailwind defaults. Our radii are slightly larger than stock. */
+  --radius-sm: 0.375rem;  /* 6px — inputs, small elements */
+  --radius-md: 0.5rem;    /* 8px — buttons */
+  --radius-lg: 0.75rem;   /* 12px — cards */
+  --radius-xl: 1rem;      /* 16px — large surfaces, feature modules */
+  --radius-pill: 9999px;  /* pills, badges */
+
+  /* ---------- Shadows ---------- */
+  /* Dark surfaces rarely need shadows. Use sparingly. */
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 12px 32px rgb(0 0 0 / 0.5);
+  --shadow-glow: 0 0 120px rgb(102 34 203 / 0.4); /* hero purple glow only */
+
+  /* ---------- Container ---------- */
+  --container-site: 90rem; /* 1440px max content width */
+}
+
+/* ---------- Base layer ---------- */
+@layer base {
+  html {
+    font-family: var(--font-body);
+    background: var(--color-surface);
+    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+    letter-spacing: var(--tracking-tight);
+    font-weight: 500;
+  }
+
+  p {
+    letter-spacing: var(--tracking-wide);
+  }
+}

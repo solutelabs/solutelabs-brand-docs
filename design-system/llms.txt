@@ -1,0 +1,28 @@
+# SoluteLabs Design System
+
+> Visual identity, design tokens, and component specs for solutelabs.com. If you are an AI assistant generating UI for SoluteLabs, start with the README.
+
+## Design system (UI generation)
+
+- [README](README.md): Entry point. Rules, voice, patterns, quick start.
+- [Tokens (docs)](tokens.md): Colors, typography, spacing, radius — with intent and Tailwind class mappings.
+- [Tokens (CSS)](tokens.css): Plain CSS custom properties for non-Tailwind projects.
+- [Tokens (Tailwind v4)](tailwind.css): `@theme` block — drop into globals.css.
+- [Components](components.md): Button, Card, Input — full specs with all states.
+
+## Brand voice and positioning
+
+- [Brand voice](../brand/brand-voice.md): Voice principles, tone by channel, writing standards.
+- [Karan's voice](../brand/karan-voice.md): Founder's personal voice for LinkedIn/social.
+- [Company positioning](../positioning/company-positioning.md): Philosophy, messaging pillars, proof points.
+- [ICP and messaging](../positioning/icp-and-messaging.md): Buyer personas, fit signals, stage-based messaging.
+- [Content playbook](../content/content-playbook.md): Hub-and-spoke strategy, templates, quality gates.
+
+## Key facts
+
+- AI-native product engineering agency, founded 2014
+- Dark-first design: page background #171717
+- Brand purple: #6622CB (specific, not generic "AI purple")
+- Brand orange: #FF4D00 (sparingly — stats, checkmarks, eyebrow bullets)
+- Fonts: Archivo (titles) + Manrope (body)
+- v1 is dark mode only. Light mode is v2.
