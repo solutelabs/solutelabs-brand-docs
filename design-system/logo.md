@@ -42,8 +42,6 @@ Use with `lottie-web`, `@lottiefiles/react-lottie-player`, or any Lottie rendere
 
 Manrope (body font) is not included in the brand kit. Load it via `next/font/google` or download from [Google Fonts](https://fonts.google.com/specimen/Manrope).
 
-**Note:** The brand kit also includes Lora (serif). Lora is not part of the current design system but may be used for specific editorial contexts. It is not included in this repo.
-
 ---
 
 ## Logo anatomy
@@ -57,12 +55,11 @@ Labs___
 
 The bar sits at baseline and extends right. It's part of the logo — don't remove or modify it.
 
-The S-mark icon has four elements:
-1. Purple shape (brand accent, `#6622CB`)
-2. Dark purple shape (`#331166`)
-3. Two white shapes (horizontal bar + small square)
+The icon mark is flat — a solid purple (`#6622CB`) square with two white shapes:
+1. A horizontal bar (lower center)
+2. A small square (upper right)
 
-All four must appear together. Don't extract individual shapes.
+No shadows, no gradients, no depth effects. The icon uses rounded corners (`rx="96"` at 512px) when rendered as an app icon.
 
 ---
 

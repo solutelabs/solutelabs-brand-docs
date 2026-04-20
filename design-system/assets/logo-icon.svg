@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.26 91.26"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#6622cb;}.cls-3{fill:#316;}</style></defs><g id="Layer_1-2"><g><path class="cls-2" d="M20.52,62.07v-9.99H62.69l-13.56-12.48v-11.43h12.83l28.28,27.1c.67-3.11,1.03-6.33,1.03-9.64C91.26,20.43,70.83,0,45.63,0S0,20.43,0,45.63s20.43,45.63,45.63,45.63c2.1,0,4.15-.15,6.17-.43l-31.29-28.76Z"/><path class="cls-3" d="M61.96,28.18v11.43h-12.83l13.56,12.48h9.53v9.99H20.52l31.29,28.76c13.15-1.78,24.52-9.15,31.63-19.65,.88-1.3,1.69-2.64,2.43-4.03,1.98-3.69,3.46-7.68,4.36-11.88l-28.28-27.1Z"/><polygon class="cls-1" points="62.69 52.09 20.52 52.09 20.52 62.07 72.22 62.07 72.22 60.85 72.22 52.09 62.69 52.09"/><rect class="cls-1" x="49.13" y="28.18" width="12.83" height="11.43"/></g></g></svg>
+<svg width="164" height="164" viewBox="0 0 164 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="164" height="164" fill="#6622CB"/>
+  <rect x="42" y="97" width="80" height="16" fill="white"/>
+  <rect x="84" y="51" width="16" height="16" fill="white"/>
+</svg>
