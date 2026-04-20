@@ -158,6 +158,8 @@ If you need a component not documented here (toast, dropdown, table):
 | `tokens.css` | CSS | Plain CSS custom properties (any stack) |
 | `tailwind.css` | CSS | Tailwind v4 `@theme` block |
 | `components.md` | Markdown | Button, Card, Input — full specs with states |
+| `logo.md` | Markdown | Logo usage rules, asset inventory, implementation examples |
+| `assets/` | Mixed | SVGs, favicon, OG image, Lottie animations, fonts |
 
 ---
 

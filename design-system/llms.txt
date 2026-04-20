@@ -9,6 +9,8 @@
 - [Tokens (CSS)](tokens.css): Plain CSS custom properties for non-Tailwind projects.
 - [Tokens (Tailwind v4)](tailwind.css): `@theme` block — drop into globals.css.
 - [Components](components.md): Button, Card, Input — full specs with all states.
+- [Logo](logo.md): Logo variants, usage rules, animation specs, implementation examples.
+- [Assets](assets/): SVGs, favicon, OG image, Lottie animations, self-hosted Archivo font.
 
 ## Brand voice and positioning
 
