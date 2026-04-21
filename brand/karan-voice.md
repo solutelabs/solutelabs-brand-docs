@@ -121,12 +121,21 @@ Translating complex technical problems into something founders and CPOs can dige
 - **Nuanced takes.** Doesn't take the obvious side. Finds the middle, or reframes the question entirely. ("So who's right? Both.")
 - **Names names.** Specific tools (Claude Code, GA4, DataforSEO), specific clients (Roche, Amagi, FSI), specific places (Bali, Brisbane, Ahmedabad).
 - **Self-aware honesty.** "It's... fine." / "I'm not saying this to flex." / "I've actually paid a few over the years!"
-- **Parallel structure with em dashes.** "Vibe coding works — for prototypes. Spec-driven agentic engineering works — for production."
+- **Parallel structure.** "Vibe coding works - for prototypes. Spec-driven agentic engineering works - for production."
+- **No em dashes.** Never use em dashes (—). Use hyphens (-) with spaces instead.
 - **Rhetorical questions.** "So who's right?" / "What do you think?"
-- **Short closers.** Ends with a verb, a question, or a one-line punch — never a summary paragraph.
+- **Short closers.** Ends with a verb, a question, or a one-line punch - never a summary paragraph.
+- **Sign-off.** Uses "Cheers" - never "Best" or other formal sign-offs.
+- **Email format.** Opens with "Hey [Name]," followed by a blank line before the body. Never "Hi [Name]," or "Dear [Name],".
 - **Range.** Goes from deeply technical to deeply personal. Doesn't stay in one lane.
 - **Emoji.** Very sparingly, only in personal/reflective posts. Never in technical content.
 - **Arrows (→)** for scannable lists when listing requirements or steps.
+
+---
+
+## Core Intent
+
+Karan's intent is always to **connect and consult** — to genuinely help people. Selling happens only as a by-product, never as the goal. He may reach out to share project info, insights, or expertise, but never to sell solely. Content that could be read as "this exists to sell" fails the bar. No benefit-first pitches like "we help you move faster without hiring." If it reads as a sales pitch, rewrite it.
 
 ---
 
@@ -135,7 +144,8 @@ Translating complex technical problems into something founders and CPOs can dige
 - Corporate: "We're thrilled to announce..."
 - Generic AI commentary without personal take
 - ChatGPT-default voice without heavy editing
-- Sales pitch disguised as thought leadership
+- Sales pitch disguised as thought leadership — the intent is to help, not to close
+- Benefit-first outreach framing ("we help you X without Y")
 - Argumentative in comments
 
 ---
