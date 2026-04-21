@@ -1,6 +1,8 @@
 # SoluteLabs Design System
 
-The tokens, components, and conventions for building UI that looks like SoluteLabs. Dark by default, purple-accented, typographically confident, restrained.
+The tokens, components, and conventions for building UI that looks like SoluteLabs. Purple-accented, typographically confident, restrained.
+
+**Context determines mode:** The website is dark (`#171717`). Decks, proposals, and print are light (white). Both modes use the same semantic tokens — add `class="light"` to flip. See `tokens.md` for details.
 
 **This file is written for LLMs.** If you are Claude, v0, Cursor, Lovable, or any other AI coding assistant — read this before generating UI code for SoluteLabs.
 
@@ -32,7 +34,7 @@ Voice layer     → this file (design rules + copy guidance)
 
 ### Visual identity
 
-1. **Dark by default.** Page background is `bg-surface` (`#171717`). For light slides, decks, or print, add `class="light"` to the container — all semantic tokens flip automatically. See `tokens.md` for the full mapping.
+1. **Context determines mode.** Website = dark (`bg-surface`, `#171717`). Decks and print = light (`class="light"`, white bg). Both use the same semantic tokens. See `slides.md` for deck-specific layouts.
 
 2. **Archivo for titles, Manrope for body.** Not Inter. Not Geist. Not Space Grotesk. Fallback: `system-ui`.
 
@@ -158,8 +160,9 @@ If you need a component not documented here (toast, dropdown, table):
 | `tokens.css` | CSS | Plain CSS custom properties (any stack) |
 | `tailwind.css` | CSS | Tailwind v4 `@theme` block |
 | `components.md` | Markdown | Button, Card, Input — full specs with states |
+| `slides.md` | Markdown | Deck layouts: cover, section, case study, stats, leadership, closing |
 | `logo.md` | Markdown | Logo usage rules, asset inventory, implementation examples |
-| `assets/` | Mixed | SVGs, favicon, OG image, Lottie animations, fonts |
+| `assets/` | Mixed | SVGs, favicon, OG image, Lottie animations, fonts, screenshots |
 
 ---
 
