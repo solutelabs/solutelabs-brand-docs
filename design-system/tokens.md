@@ -11,11 +11,11 @@ The token layer. If you're generating code, this tells you what values to use. I
 
 ## Philosophy
 
-Dark-first. Tight four-color palette: charcoal, fresh purple, bright orange, white. We don't add colors to solve problems — we use the ones we have.
+Tight four-color palette: charcoal, fresh purple, bright orange, white. We don't add colors to solve problems — we use the ones we have.
 
-Two type families: **Archivo** (titles) and **Manrope** (body). No third family.
+Two type families: **Archivo** (titles) and **Manrope** (body). Tailwind also defines `font-sans` as an alias for Manrope (the default body font).
 
-v1 is dark mode only. Light mode is v2.
+Website is dark. Decks and print are light. Both modes use the same semantic tokens — add `class="light"` to flip.
 
 ---
 
@@ -37,9 +37,9 @@ Raw values. Never use directly in components — always go through semantic toke
 
 | Name | Value | Intent |
 |---|---|---|
-| `purple-100` | `#E2CFFF` | Reserved for light mode |
-| `purple-200` | `#C2A7EA` | Inline text accent on dark surfaces |
-| `purple-300` | `#4D1A98` | Reserved for light mode |
+| `purple-100` | `#E2CFFF` | Unused in v1.1 — available for accent surfaces |
+| `purple-200` | `#C2A7EA` | `foreground-accent` in dark mode |
+| `purple-300` | `#4D1A98` | `foreground-accent` in light mode (dark enough on white) |
 
 ### Semantic tokens
 
@@ -106,17 +106,19 @@ const manrope = Manrope({ subsets: ['latin'], variable: '--font-body' });
 
 **Font loading example (@font-face):**
 
+Archivo variable woff2 is included in `assets/fonts/`. Manrope is not in the brand kit — download the variable woff2 from [Google Fonts](https://fonts.google.com/specimen/Manrope) and self-host it alongside Archivo.
+
 ```css
 @font-face {
   font-family: 'Archivo';
-  src: url('/fonts/archivo-variable.woff2') format('woff2');
-  font-weight: 400 700;
+  src: url('/fonts/Archivo-Variable.woff2') format('woff2');
+  font-weight: 100 900;
   font-display: swap;
 }
 @font-face {
   font-family: 'Manrope';
-  src: url('/fonts/manrope-variable.woff2') format('woff2');
-  font-weight: 400 700;
+  src: url('/fonts/Manrope-Variable.woff2') format('woff2');
+  font-weight: 200 800;
   font-display: swap;
 }
 ```
@@ -195,7 +197,7 @@ Tailwind v4 calculates spacing dynamically: class `p-N` = `N × 4px`. Half-steps
 | Grouped elements | 32px | `gap-8` |
 | Card internal sections | 40px | `gap-10` |
 | Section internal | 48px | `gap-12` |
-| Between sections | 120px | `py-30` |
+| Between sections | 120px | `py-section` (or `py-30`) |
 
 For non-Tailwind consumers: `tokens.css` provides `--sl-space-*` variables.
 
@@ -230,15 +232,15 @@ Restrained. Dark surfaces get depth from elevated background + border, not shado
 
 ## Motion
 
-| Token | Value | Use for |
-|---|---|---|
-| `fast` | `120ms ease-out` | Hover color shifts |
-| `base` | `180ms ease-out` | Default transitions |
-| `slow` | `280ms ease-out` | Modal open, page reveals |
+| Token | Duration | Easing | Use for |
+|---|---|---|---|
+| `fast` | `120ms` | `cubic-bezier(0.4, 0, 0.2, 1)` | Hover color shifts |
+| `base` | `180ms` | `cubic-bezier(0.4, 0, 0.2, 1)` | Default transitions |
+| `slow` | `280ms` | `cubic-bezier(0.4, 0, 0.2, 1)` | Modal open, page reveals |
 
-No 500ms+ transitions. No springs. No custom easing curves.
+All transitions use the same easing curve (Material standard). No 500ms+ transitions. No springs.
 
-In Tailwind: `transition-colors duration-150` covers most interactions.
+In Tailwind: `transition-colors duration-120` for fast, `duration-180` for base. Component examples use `duration-120` (the `fast` token).
 
 ---
 

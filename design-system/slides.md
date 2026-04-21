@@ -10,7 +10,7 @@ Layout templates for decks and presentations. Based on the current Pitch deck wi
 
 ## Slide types
 
-The deck uses 7 slide types. Every slide in a SoluteLabs deck is one of these.
+The deck uses 8 slide types. Every slide in a SoluteLabs deck is one of these.
 
 | Type | Background | When to use |
 |---|---|---|
@@ -18,6 +18,7 @@ The deck uses 7 slide types. Every slide in a SoluteLabs deck is one of these.
 | Section divider | Charcoal (`#171717`) | Before each major section |
 | About / Stats | White | Company facts, metrics |
 | Content (two-column) | White | Capabilities, features, comparisons |
+| Logo wall | White | Client logos, grouped by category |
 | Case study | White | Client work with stats + testimonial |
 | Leadership | White | Team bios |
 | Closing | White + charcoal panel | Last slide, contact info |
@@ -147,6 +148,40 @@ White background. For capabilities, service lists, comparisons.
 - List items: Manrope Regular, `text-body`
 - Bullet points: purple checkmarks for feature lists, plain text for simple lists
 - No more than two columns
+
+---
+
+## Logo wall slide
+
+White background. Client logos grouped by category.
+
+**Layout:**
+
+```
+┌─────────────────────────────────────────────────┐
+│                                                 │
+│  Clients                                        │
+│                                                 │
+│  Enterprises        SMEs           Startups     │
+│  ┌───┐ ┌───┐      ┌───┐ ┌───┐    ┌───┐ ┌───┐  │
+│  │   │ │   │      │   │ │   │    │   │ │   │  │
+│  └───┘ └───┘      └───┘ └───┘    └───┘ └───┘  │
+│  ┌───┐ ┌───┐      ┌───┐ ┌───┐    ┌───┐ ┌───┐  │
+│  │   │ │   │      │   │ │   │    │   │ │   │  │
+│  └───┘ └───┘      └───┘ └───┘    └───┘ └───┘  │
+│                                                 │
+│                              Complete list →    │
+└─────────────────────────────────────────────────┘
+```
+
+**Rules:**
+- Three columns: Enterprises, SMEs, Startups (or by industry: Healthcare, Finance, Media, etc.)
+- Column headers: Archivo Medium, `text-title`, `text-foreground`
+- Logos in original colors, sized to fit a consistent bounding box (~120px wide)
+- 2-3 rows per column, 2-3 logos per row
+- "Complete list" link bottom-right (purple, links to solutelabs.com/clients)
+- Client logos are in `assets/logos/clients/`
+- Use standard (colored) variants on white slides, `trusted-*` (white) variants on dark slides
 
 ---
 

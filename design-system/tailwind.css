@@ -31,6 +31,7 @@
   --color-fresh-purple: #6622CB;
   --color-bright-orange: #FF4D00;
   --color-charcoal: #171717;
+  --color-elevated: #1F1F1F;
   --color-white: #FFFFFF;
 
   --color-purple-100: #E2CFFF;
@@ -142,6 +143,9 @@
   --shadow-md: 0 4px 12px rgb(0 0 0 / 0.4);
   --shadow-lg: 0 12px 32px rgb(0 0 0 / 0.5);
   --shadow-glow: 0 0 120px rgb(102 34 203 / 0.4); /* hero purple glow only */
+
+  /* ---------- Transition ---------- */
+  --transition-timing-function-standard: cubic-bezier(0.4, 0, 0.2, 1);
 
   /* ---------- Container ---------- */
   --container-site: 90rem; /* 1440px max content width */

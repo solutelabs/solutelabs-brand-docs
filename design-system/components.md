@@ -32,7 +32,7 @@ The solid white button. The most important action on screen. There should rarely
 | State | Treatment |
 |---|---|
 | Default | White background, charcoal text |
-| Hover | `hover:bg-white/90` — `transition-colors duration-150` |
+| Hover | `hover:bg-white/90` — `transition-colors duration-120` |
 | Active | `active:bg-white/80` |
 | Focus-visible | `outline-2 outline-accent-primary outline-offset-2` |
 | Disabled | `opacity-40 cursor-not-allowed` — no hover response |
@@ -43,7 +43,7 @@ The solid white button. The most important action on screen. There should rarely
 <button className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-md
                    bg-white text-foreground-inverse
                    font-title font-medium text-label tracking-normal
-                   transition-colors duration-150
+                   transition-colors duration-120
                    hover:bg-white/90 active:bg-white/80
                    focus-visible:outline-2 focus-visible:outline-accent-primary
                    focus-visible:outline-offset-2
@@ -52,7 +52,7 @@ The solid white button. The most important action on screen. There should rarely
 </button>
 ```
 
-**Why `bg-white` instead of a semantic token?** In v1 (dark-only), the primary button is literally white. When light mode ships (v2), this flips to `bg-[var(--sl-btn-primary-bg)]` which will resolve to a different value. For now, `bg-white` is correct and readable.
+**Why `bg-white` instead of a semantic token?** In dark mode, the primary button is literally white. In light mode, consider `bg-accent-primary` (purple) with `text-foreground-inverse` (white text) — this is a context decision per slide/page, not a token flip.
 
 ---
 
@@ -70,7 +70,8 @@ The outlined/ghost button. Supporting actions: "All Case Studies", "Explore More
 | Radius | `rounded-md` | 8px |
 | Padding | `py-4.5 px-8` | 18px / 32px |
 | Gap (icon to label) | `gap-6` | 24px |
-| Font | Archivo Medium, `text-body` | 18px/30px |
+| Font | Archivo Medium, `text-body` | 18px/30px (intentionally larger than primary — secondary buttons have more padding and need visual weight) |
+| Letter spacing | `tracking-normal` | 0 |
 
 **States**
 
@@ -87,9 +88,9 @@ The outlined/ghost button. Supporting actions: "All Case Studies", "Explore More
 ```jsx
 <button className="inline-flex items-center gap-6 px-8 py-4.5 rounded-md
                    bg-transparent text-foreground
-                   font-title font-medium text-body
+                   font-title font-medium text-body tracking-normal
                    border border-edge
-                   transition-colors duration-150
+                   transition-colors duration-120
                    hover:bg-white/5 hover:border-edge-strong
                    focus-visible:outline-2 focus-visible:outline-accent-primary
                    focus-visible:outline-offset-2
@@ -180,7 +181,7 @@ font-body text-body text-foreground-muted tracking-wide
 
   <footer className="flex gap-8 pt-4.5 border-t border-edge-subtle">
     <div>
-      <div className="font-title text-title text-foreground">
+      <div className="font-title font-medium text-title text-foreground">
         22,000<span className="text-accent-secondary">+</span>
       </div>
       <div className="font-body text-label text-foreground-faint">LOC</div>
@@ -225,7 +226,7 @@ Form inputs for contact forms, newsletter signup, search.
 | Hover | `hover:border-edge-strong` |
 | Focus | `focus:border-edge-accent` (purple). No shadow, no extra outline |
 | Error | Border `#EF4444` (not yet tokenized — v1.x addition) |
-| Disabled | `opacity-50 cursor-not-allowed` |
+| Disabled | `opacity-40 cursor-not-allowed` |
 
 **Label** — above input. Manrope Medium, `text-label`, `text-foreground`. Gap: `gap-2`.
 
@@ -248,10 +249,10 @@ Form inputs for contact forms, newsletter signup, search.
                placeholder:text-foreground-faint
                border border-edge
                font-body text-body tracking-wide
-               transition-colors duration-150
+               transition-colors duration-120
                hover:border-edge-strong
                focus:border-edge-accent focus:outline-none
-               disabled:opacity-50 disabled:cursor-not-allowed"
+               disabled:opacity-40 disabled:cursor-not-allowed"
   />
   <span className="font-body text-label text-foreground-faint">
     We'll only use this to reply.

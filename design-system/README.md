@@ -77,6 +77,7 @@ Sizes use descriptive names — they don't override Tailwind's built-in `text-xs
 text-label     → 16px  (buttons, compact labels)
 text-body      → 18px  (paragraphs)
 text-lead      → 20px  (lead copy)
+text-title-sm  → 22px  (eyebrow-adjacent headings)
 text-title     → 24px  (card titles)
 text-title-lg  → 28px  (h3)
 text-heading   → 32px  (h2)
@@ -160,14 +161,15 @@ If you need a component not documented here (toast, dropdown, table):
 | `tokens.css` | CSS | Plain CSS custom properties (any stack) |
 | `tailwind.css` | CSS | Tailwind v4 `@theme` block |
 | `components.md` | Markdown | Button, Card, Input — full specs with states |
-| `slides.md` | Markdown | Deck layouts: cover, section, case study, stats, leadership, closing |
+| `slides.md` | Markdown | Deck layouts: cover, section, case study, stats, leadership, closing, logo wall |
 | `logo.md` | Markdown | Logo usage rules, asset inventory, implementation examples |
-| `assets/` | Mixed | SVGs, favicon, OG image, Lottie animations, fonts, screenshots |
+| `llms.txt` | Text | LLM discovery file — index of all design system + brand files |
+| `assets/` | Mixed | SVGs, favicon, OG image, Lottie animations, fonts, logos, screenshots |
 
 ---
 
 ## Version
 
-**v1.1** — Dark + light mode tokens. 3 core components. Client/partner logos. Derived from Figma file `Website-2025` (frame V4).
+**v1.1** — Dark + light mode tokens. 3 core components. Slide layouts. Client/partner logos. Derived from Figma file `Website-2025` (frame V4).
 
-Planned v1.x: error/success/warning tokens, dropdown, checkbox/radio, nav/footer, slide layouts.
+Planned v1.x: error/success/warning tokens, dropdown, checkbox/radio, nav/footer.
