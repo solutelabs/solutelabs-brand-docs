@@ -82,6 +82,7 @@ Use these when the buyer cares about velocity and agility.
 For AI agents that need the full context behind a quote.
 
 ### OddsNow (Sports / England)
+
 - **Reviewer:** Matt Hill, Head of Product
 - **Project:** Website redesign & development using Sanity CMS
 - **Budget:** $50K–$199K | Mar–Aug 2025
@@ -90,6 +91,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "SoluteLabs had pioneering developers."
 
 ### Stir Crazy Kids (Education / Melbourne, Australia)
+
 - **Reviewer:** Donna Oehm, Founder
 - **Project:** Mobile app development (iOS & Android) for school canteen service
 - **Budget:** $50K–$199K | Aug 2025–Ongoing
@@ -98,6 +100,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "Nothing is too much trouble for them."
 
 ### NDTV Profit (Media / India)
+
 - **Reviewer:** Vaibhav Khanna, Head of Product & Subscriptions
 - **Project:** Mobile app built from scratch (iOS & Android)
 - **Budget:** $50K–$199K | June 2023–Ongoing
@@ -106,6 +109,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "They don't say no to any problems; they're willing to find complex solutions."
 
 ### Ivy Mobility (Software / Bengaluru, India)
+
 - **Reviewer:** Deepak Perumpidi, VP of Technology
 - **Project:** Mobile app dev & ML staff augmentation
 - **Budget:** $200K–$999K | Apr 2017–Ongoing
@@ -114,6 +118,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "SoluteLabs' senior management team positively engages with us."
 
 ### The Ken (Publishing / Bengaluru, India)
+
 - **Reviewer:** Manan Bharara, Product Manager
 - **Project:** Mobile app optimization (design, navigation, infrastructure)
 - **Budget:** $10K–$49K | May–Oct 2020
@@ -122,6 +127,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "They've got a fabulous team that treated the app as their own."
 
 ### Live History India (Arts & Entertainment / India)
+
 - **Reviewer:** Director & Head of Product (Anonymous)
 - **Project:** Web app + backend for content & commerce platform
 - **Budget:** $10K–$49K | July–Dec 2021
@@ -130,6 +136,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "They brainstormed with the client to find the best way to meet the end objectives."
 
 ### Healthcare Tech Startup (Chicago, USA)
+
 - **Reviewer:** CEO & Co-Founder (Anonymous)
 - **Project:** Custom software development (Heroku, Twilio, Postmark)
 - **Budget:** $10K–$49K | Mar–July 2021
@@ -138,6 +145,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "They captured our vision perfectly and they went above and beyond with their services."
 
 ### Digital Engineering Firm (UK)
+
 - **Reviewer:** Managing Director (Anonymous)
 - **Project:** Communications app (Flutter, iOS & Android)
 - **Budget:** $10K–$49K | June–Sep 2020
@@ -146,6 +154,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "We all communicated well and any feedback was taken on board and discussed with no issues."
 
 ### Audio Startup (NYC, USA)
+
 - **Reviewer:** Founder (Anonymous)
 - **Project:** Flagship iOS app + web app
 - **Budget:** $50K–$199K | July 2019–Apr 2020
@@ -154,6 +163,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "They were very responsive."
 
 ### LifeBytes Bioinformatics (Healthcare / Bengaluru, India)
+
 - **Reviewer:** Vivek Todur, Bioinformatic Scientist
 - **Project:** UI/UX design & web app for genomic data analysis
 - **Budget:** $10K–$49K | Jan–July 2021
@@ -162,6 +172,7 @@ For AI agents that need the full context behind a quote.
 - **Quote:** "SoluteLabs helped us achieve what we aimed for this project."
 
 ### Venture Building Company (UAE)
+
 - **Reviewer:** Department Head (Anonymous)
 - **Project:** Full stack development (Ruby on Rails)
 - **Budget:** $10K–$49K | June 2021–Ongoing

@@ -31,7 +31,7 @@ Purple background. The only slide where purple is a full surface.
 
 **Layout:**
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │  [Logo wordmark — white]                        │
@@ -49,6 +49,7 @@ Purple background. The only slide where purple is a full surface.
 ```
 
 **Rules:**
+
 - Headline is italic (Archivo Medium Italic, `text-display`)
 - No orange dot or decorative elements on the headline
 - No animated title reveal — static text
@@ -64,7 +65,7 @@ Charcoal background (`#171717`). Used to introduce major sections: "Case Studies
 
 **Layout:**
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │                                                 │
@@ -78,6 +79,7 @@ Charcoal background (`#171717`). Used to introduce major sections: "Case Studies
 ```
 
 **Rules:**
+
 - Headline: Archivo Medium, `text-hero` or `text-display`, white
 - No subtitle needed — the section title is enough
 - Icon mark bottom-right (optional)
@@ -91,7 +93,7 @@ White background. Company overview with stacked or horizontal stats.
 
 **Layout (horizontal stats):**
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │  Headline                                       │
@@ -109,6 +111,7 @@ White background. Company overview with stacked or horizontal stats.
 ```
 
 **Rules:**
+
 - Stats use Archivo Medium, `text-heading` or `text-hero` size
 - Stat labels use Manrope, `text-body`, `text-foreground-muted`
 - Stats separated by purple vertical dividers
@@ -124,7 +127,7 @@ White background. For capabilities, service lists, comparisons.
 
 **Layout:**
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │  Headline                                       │
@@ -143,6 +146,7 @@ White background. For capabilities, service lists, comparisons.
 ```
 
 **Rules:**
+
 - Purple vertical bar separates columns (not a full border — just a line)
 - Column titles: Archivo Medium, `text-title`, with short purple underline below (these are sub-headers, not links)
 - List items: Manrope Regular, `text-body`
@@ -157,7 +161,7 @@ White background. Client logos grouped by category.
 
 **Layout:**
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │  Clients                                        │
@@ -175,6 +179,7 @@ White background. Client logos grouped by category.
 ```
 
 **Rules:**
+
 - Three columns: Enterprises, SMEs, Startups (or by industry: Healthcare, Finance, Media, etc.)
 - Column headers: Archivo Medium, `text-title`, `text-foreground`
 - Logos in original colors, sized to fit a consistent bounding box (~120px wide)
@@ -191,7 +196,7 @@ White background. The most common slide type. Shows client work with proof point
 
 **Layout:**
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │  Headline for the                [Client logo]  │
@@ -213,6 +218,7 @@ White background. The most common slide type. Shows client work with proof point
 ```
 
 **Rules:**
+
 - Headline: Archivo Medium, `text-heading`. Key product/outcome word can be bold
 - No underlines on headlines (deck context — nothing is clickable in a presentation)
 - Client logo: top-right corner, original colors
@@ -232,7 +238,7 @@ White background. Team bios.
 
 **Layout:**
 
-```
+```text
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │  Leadership                                     │
@@ -255,6 +261,7 @@ White background. Team bios.
 ```
 
 **Rules:**
+
 - Headshots: circular crop with orange (`#FF4D00`) border ring — this is the one place orange appears prominently outside stats
 - Name: Archivo Medium, `text-title`
 - Title: Manrope, `text-body`, muted
@@ -270,7 +277,7 @@ White left panel + charcoal right panel with silhouette photo.
 
 **Layout:**
 
-```
+```text
 ┌──────────────────────────┬──────────────────────┐
 │                          │                      │
 │  "Stay Curious"          │                      │
@@ -291,6 +298,7 @@ White left panel + charcoal right panel with silhouette photo.
 ```
 
 **Rules:**
+
 - "Stay Curious" is a handwritten/script element — brand sign-off
 - Left panel: white, all contact info
 - Right panel: charcoal, icon mark top, atmospheric silhouette photo
@@ -302,17 +310,20 @@ White left panel + charcoal right panel with silhouette photo.
 ## Global deck rules
 
 ### Backgrounds
+
 - **Purple** — cover slide only
 - **Charcoal** — section dividers and closing panel only
 - **White** — everything else
 
 ### Typography
+
 - **Headlines:** Archivo Medium (or Medium Italic on cover), `tracking-tight`
 - **Body:** Manrope Regular, `tracking-wide`
 - **Stats:** Archivo Medium, large. The `+` suffix in orange
 - **Labels/captions:** Manrope, muted color
 
 ### Accent usage
+
 - **Purple checkmarks** — bullet points on content/case study slides
 - **Purple vertical bars** — column dividers, stat dividers
 - **Purple horizontal rules** — between stacked stat blocks
@@ -321,6 +332,7 @@ White left panel + charcoal right panel with silhouette photo.
 - **Orange circle border** — leadership headshot frames only
 
 ### What NOT to do
+
 - No underlines on headlines (underlines are for web links, not deck emphasis)
 - No animated title reveals (static text is clearer)
 - No video embeds (won't play in presentations — use screenshots)
@@ -331,6 +343,7 @@ White left panel + charcoal right panel with silhouette photo.
 - No emoji
 
 ### Persistent elements
+
 - Icon mark: bottom-right on white slides (in purple circle, subtle)
 - Copyright: bottom-left, `text-foreground-faint`
 - No logo wordmark on content slides (only on cover and closing)

@@ -38,6 +38,7 @@ The distinction matters enormously:
 | Replaced when cheaper option appears | Retained because we understand the business |
 
 This is why our clients describe us in language like:
+
 - *"They really get us"*
 - *"They don't just do what they're told"*
 - *"They understand what we're actually trying to do"*
@@ -179,40 +180,48 @@ Our engineering process, explained in four layers:
 #### Case Studies (Use by Service Line)
 
 **AI Agents & Copilots**
+
 - Smart Store Assistant — AI-powered store assistant combining search and conversational AI for a global retail brand
 - PowerBI → AI-powered dashboard — users ask questions in natural language (copilot angle)
 
 **AI-Native Product Engineering**
+
 - Amagi — award-winning product engineering for a media SaaS unicorn
 - Reelo — marketing automation platform rebuilt from scratch, now powering 2M+ customers
 - Modulus Finance — product engineering for world's leading technical charting library (FinChartX)
 - NDTV Profit — building the future of news with India's leading business channel
 
 **Conversational & Voice AI**
+
 - Pharmacogenetics Platform — secure voice-AI agents for real-time healthcare, HIPAA-ready
 - ElevenLabs production builds — validated implementation experience as official partner
 
 **Enterprise Knowledge Systems**
+
 - Roche Japan — app modernization from legacy Excel macros to cloud-native. Ongoing partnership since 2021 across multiple initiatives and geographies.
 - Roche Cobas — HL7 data conversion tool for offline-first lab report creation
 
 **AI Automation & Workflow Intelligence**
+
 - IVY Mobility — CV/ML solution for product stacking intelligence in retail stores
 - FSI AssetCONNECT — digitizing fire suppression system management and predictive maintenance
 
 **Digital Transformation & Modernization**
+
 - Synergy Marine Group — digital transformation for the world's third-largest maritime company. Technical, commercial, and crew management apps.
 - Peepul Tree — eCommerce app modernization, contributing to $6M seed round
 - OddsNow — Next.js + Sanity CMS migration. 1,500+ articles migrated, 1,500+ SEO redirects.
 - 22,000 LOC Angular 9 → Next.js migration in under a week (use as one proof point among many, not the headline)
 
 **HealthTech**
+
 - AllDayDr — online pharmacy and real-time telemedicine with NHS integration
 - Memory Machine — cognitive support platform bridging patients, caregivers, and healthcare professionals
 - EVVA — care management solution for dementia patients
 - XY AI — UX strategy for AI-driven health/environment/lifestyle insights
 
 **Other Verticals**
+
 - Stir Crazy Kids (EdTech) — school canteen ordering platform deployed across 33 schools
 
 ---
@@ -244,6 +253,7 @@ That's SoluteLabs.
 Being clear about what you're not is as important as what you are.
 
 **We do not position as:**
+
 - A staffing / body shop / team extension service
 - A generic offshore development agency
 - An AI consulting firm (we build, we don't just advise)
@@ -251,12 +261,14 @@ Being clear about what you're not is as important as what you are.
 - The cheapest option in the market
 
 **We do not take:**
+
 - Projects where the client has a rigid spec and wants zero pushback
 - Clients who aren't open to being challenged on what they're building
 - Projects where the idea needs fundamental validation before engineering begins
 - Clients who treat vendor relationships as purely transactional
 
 **We do not claim:**
+
 - Speed without the case study to back it
 - AI capability without showing the actual process
 - Industry expertise in verticals we don't have real experience in
@@ -285,6 +297,7 @@ Content outside these pillars (employer branding, community, open-source, cultur
 Content that demonstrates business judgment — the questions we ask before scoping, the times we pushed back, the decisions we've seen go wrong and right. This is the most differentiating content we can produce and the hardest for any other agency to replicate.
 
 **Example topics:**
+
 - "The 5 questions we ask every client before writing a spec"
 - "Why we told a client to stop building and do customer discovery first"
 - "What 'digital transformation' actually means in a large enterprise (from the inside)"
@@ -297,6 +310,7 @@ Content that demonstrates business judgment — the questions we ask before scop
 Specific, technical, grounded in real projects. Architecture decisions, trade-offs, what worked, what didn't. This pillar builds credibility with CTOs and technical founders.
 
 **Example topics:**
+
 - "We built three RAG systems last quarter. Every one needed a different architecture. Here's how we decide."
 - "ElevenLabs in production — what the docs don't tell you"
 - "What broke when we rebuilt our process around the Agentic Harness (and what got 5x better)"
@@ -310,6 +324,7 @@ Specific, technical, grounded in real projects. Architecture decisions, trade-of
 Opinionated, evidence-backed perspectives on AI trends, industry dynamics, and the gap between hype and reality. This builds authority with founders and product leaders.
 
 **Example topics:**
+
 - "AI agents are overhyped for some use cases and underused in others. Here's the honest breakdown."
 - "Why Australian companies are 18 months behind on voice AI adoption"
 - "The Lovable ceiling: when no-code AI tools stop being sufficient"
@@ -322,6 +337,7 @@ Opinionated, evidence-backed perspectives on AI trends, industry dynamics, and t
 Teach our buyers to make better decisions — including decisions about how to evaluate vendors like us. This is the highest-trust content we can produce.
 
 **Example topics:**
+
 - "Questions to ask any AI development partner before signing"
 - "What a production-ready AI build actually costs — and why estimates vary wildly"
 - "How to scope an AI MVP without wasting your first three months"
@@ -334,6 +350,7 @@ Teach our buyers to make better decisions — including decisions about how to e
 Case studies, client outcomes, specific numbers. Always specific, always contextualised, never puffed up.
 
 **Example topics:**
+
 - Full case studies (Synergy Marine, ElevenLabs voice AI builds, Angular → Next.js migration, Roche internal tooling)
 - "Before and after" breakdowns — what was the problem, what did we build, what changed
 - Enterprise digital transformation outcomes — with real operational metrics

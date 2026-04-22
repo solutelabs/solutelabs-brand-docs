@@ -8,7 +8,10 @@ SoluteLabs is an AI-native product engineering studio. Founded in 2014. Headquar
 
 ## Repo Structure
 
-```
+```text
+DESIGN.md                 — Standardized design system summary (google-labs-code/design.md format)
+                            YAML tokens + markdown rationale. Any DESIGN.md-aware agent reads this first.
+
 design-system/
   README.md               — LLM entry point: visual rules, voice, common patterns
   tokens.md               — Token docs: colors, type, spacing with intent + Tailwind class mappings
@@ -31,6 +34,7 @@ content/
 
 ## How to Use These Files
 
+- **Quick design context (any agent):** Load `DESIGN.md` — structured tokens + rationale in the google-labs-code/design.md standard format
 - **Generating UI code:** Load `design-system/README.md` for rules, then `design-system/tailwind.css` for the theme
 - **Need component specs:** Load `design-system/components.md` for Button, Card, Input with all states
 - **Writing SoluteLabs content:** Load `brand/brand-voice.md` for voice and tone rules
@@ -52,6 +56,7 @@ Each file is self-contained enough to be loaded independently based on the task.
 ## Boundaries
 
 NEVER modify without Karan's explicit approval:
+
 - Core positioning statements in `positioning/company-positioning.md` (sections 1-3)
 - Karan's real LinkedIn post examples in `brand/karan-voice.md`
 - The "What SoluteLabs Never Does" rules in `brand/brand-voice.md`
@@ -67,6 +72,7 @@ NEVER modify without Karan's explicit approval:
 ## Code Intelligence
 
 Prefer LSP over Grep/Glob/Read for code navigation:
+
 - `goToDefinition` / `goToImplementation` to jump to source
 - `findReferences` to see all usages across the codebase
 - `workspaceSymbol` to find where something is defined
@@ -86,6 +92,7 @@ moving on. Fix any type errors or missing imports immediately.
 ## Package Security
 
 ALWAYS prefix package install commands with `sfw` (Socket Firewall):
+
 - `sfw npm install` instead of `npm install`
 - `sfw pip install` instead of `pip install`
 - `sfw yarn add` instead of `yarn add`

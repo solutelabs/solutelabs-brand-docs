@@ -3,6 +3,7 @@
 The token layer. If you're generating code, this tells you what values to use. If you're designing new components, this tells you what's allowed.
 
 **Which file should I use?**
+
 - Tailwind v4 project → use `tailwind.css` (defines the same tokens as Tailwind theme values)
 - Any other stack → use `tokens.css` (plain CSS custom properties)
 - This file → documentation of intent, rationale, and usage rules
@@ -86,7 +87,7 @@ What components actually reference. Organized by what CSS property they're typic
 
 ### Families
 
-```
+```text
 Title → Archivo (geometric, confident at large sizes)
 Body  → Manrope (readable, modern at smaller sizes)
 ```
@@ -163,7 +164,7 @@ Named by intent, not arbitrary scale numbers:
 
 Copy these directly — they match the homepage:
 
-```
+```text
 Display/Hero  → font-title font-medium text-display tracking-tight
 H1            → font-title font-medium text-hero tracking-tight
 H2            → font-title font-medium text-heading tracking-tight

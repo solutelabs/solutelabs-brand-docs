@@ -5,6 +5,7 @@ Central source of truth for SoluteLabs brand voice, positioning, and content gui
 ## What's here
 
 ### Design System (start here for UI work)
+
 - [Design System README](design-system/README.md) — LLM entry point: rules, voice, patterns, quick start
 - [Tokens (docs)](design-system/tokens.md) — Colors, typography, spacing with intent and Tailwind mappings
 - [Tokens (CSS)](design-system/tokens.css) — Plain CSS custom properties for any stack
@@ -12,14 +13,17 @@ Central source of truth for SoluteLabs brand voice, positioning, and content gui
 - [Components](design-system/components.md) — Button, Card, Input — full specs with all states
 
 ### Brand
+
 - [Brand Voice](brand/brand-voice.md) — How SoluteLabs sounds across all channels
 - [Karan's Voice](brand/karan-voice.md) — Karan's personal writing style, tone, and real examples
 
 ### Positioning
+
 - [Company Positioning](positioning/company-positioning.md) — Who we are, what we do, why it matters, messaging pillars
 - [ICP & Messaging](positioning/icp-and-messaging.md) — Ideal customer profiles, buyer personas, stage-specific messaging
 
 ### Content
+
 - [Content Playbook](content/content-playbook.md) — Strategy, templates, SEO/LLM optimization, pre-publish checklist
 - [Testimonials](content/testimonials.md) — Client quotes (Clutch) and video testimonials (YouTube), organized by theme
 

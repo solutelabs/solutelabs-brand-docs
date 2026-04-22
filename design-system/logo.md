@@ -48,7 +48,7 @@ Manrope (body font) is not included in the brand kit. Load it via `next/font/goo
 
 The wordmark is custom type reading "SoluteLabs" followed by an underscore-like horizontal bar:
 
-```
+```text
 Solute
 Labs___
 ```
@@ -56,6 +56,7 @@ Labs___
 The bar sits at baseline and extends right. It's part of the logo — don't remove or modify it.
 
 The icon mark is flat — a solid purple (`#6622CB`) square with two white shapes:
+
 1. A horizontal bar (lower center)
 2. A small square (upper right)
 

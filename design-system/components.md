@@ -141,16 +141,18 @@ No card requires all three. Stat card = body only. Case study = all three.
 
 **Title typography**
 
-```
+```text
 font-title font-medium text-title text-foreground tracking-tight
 ```
+
 → Archivo Medium, 24px/40px
 
 **Description typography**
 
-```
+```text
 font-body text-body text-foreground-muted tracking-wide
 ```
+
 → Manrope Regular, 18px/30px
 
 **Highlighted variant** (featured/selected card)

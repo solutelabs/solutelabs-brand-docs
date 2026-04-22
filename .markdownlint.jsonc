@@ -1,0 +1,10 @@
+{
+  // Line length - disabled for prose-heavy brand docs
+  "MD013": false,
+  // Table column style - tables use compact pipe style throughout
+  "MD060": false,
+  // Emphasis as heading - bold labels are used intentionally as sub-labels
+  "MD036": false,
+  // Blank line inside blockquote - separate quotes are intentionally separated by blank lines
+  "MD028": false
+}

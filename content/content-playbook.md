@@ -85,7 +85,7 @@ See [Karan's Voice](../brand/karan-voice.md) for his content pillars, voice guid
 
 ### Blog Post
 
-```
+```markdown
 # [Title — clear, specific, benefit-oriented]
 
 [Opening hook — 1-2 sentences that name the problem or tension]
@@ -110,7 +110,7 @@ See [Karan's Voice](../brand/karan-voice.md) for his content pillars, voice guid
 
 ### Case Study
 
-```
+```markdown
 # [Client name]: [Result in one line]
 
 ## The challenge
@@ -135,7 +135,7 @@ Karan's posts follow a few recurring structures. Pick the one that fits. See [Ka
 
 #### Structure A — Nuanced take (most common)
 
-```
+```text
 [Story or anecdote — specific person, place, moment]
 
 [Quote or surprising claim]
@@ -155,7 +155,7 @@ Karan's posts follow a few recurring structures. Pick the one that fits. See [Ka
 
 #### Structure B — Build in public
 
-```
+```text
 [What I did — specific, one line]
 
 [The problem I was solving]
@@ -173,7 +173,7 @@ Karan's posts follow a few recurring structures. Pick the one that fits. See [Ka
 
 #### Structure C — Hiring / team
 
-```
+```text
 [Role. Location. One line.]
 
 [The job in one line — framed as a standard, not a description]
@@ -189,7 +189,7 @@ Karan's posts follow a few recurring structures. Pick the one that fits. See [Ka
 
 #### Structure D — Personal / reflective
 
-```
+```text
 [Surprising or contrarian opening line]
 
 [Personal story or admission]
@@ -203,7 +203,7 @@ Karan's posts follow a few recurring structures. Pick the one that fits. See [Ka
 
 ### Sales Email (Cold Outreach)
 
-```
+```text
 Subject: [Short, specific, no clickbait]
 
 [Personalized opener — reference something specific about them]
@@ -217,7 +217,7 @@ Subject: [Short, specific, no clickbait]
 
 ### Social Media Post (Company)
 
-```
+```text
 [Hook — first line matters most]
 
 [Core message — 2-3 lines max]
@@ -234,31 +234,37 @@ Subject: [Short, specific, no clickbait]
 Before publishing any piece of content, run it through these six tests. If it fails more than one, revise before publishing.
 
 ### Test 1 — The Judgment Test
+
 > Does this content demonstrate business judgment, not just technical capability?
 
 SoluteLabs is not a coding shop. Our best content reflects the thinking that goes into what we build, not just how we build it. If the content reads like a tutorial or a feature showcase without any "here's why we made this decision" layer, add it.
 
 ### Test 2 — The Specificity Test
+
 > Is there at least one specific, concrete detail — a real number, a named tool, a real project outcome?
 
 Generic claims destroy credibility with our buyers. "We build AI products fast" is worthless. "We rebuilt an Angular 9 codebase into Next.js — 22,000 lines of code — in under a week, using multi-agent orchestration with Claude Code" is credible. Every piece of content needs at least one anchor to reality.
 
 ### Test 3 — The ICP Test
+
 > Would a CTO, technical founder, or business owner with domain expertise find this immediately useful or credible?
 
 If the answer is "a general AI enthusiast would like this" — revise. We are not writing for the AI Twitter crowd. We are writing for people making real product and technology decisions. If it doesn't speak to a real decision they face, it's not for us.
 
 ### Test 4 — The Differentiation Test
+
 > Does this reinforce something that SoluteLabs uniquely stands for?
 
 If a generic AI agency could have published this exact piece of content — the judgment layer is missing. Ask: what's the SoluteLabs POV here? What have we learned from actually building this? What would we tell a client that they probably won't hear from anyone else?
 
 ### Test 5 — The "Are We Selling or Helping?" Test
+
 > Does this content try to help the reader first, or sell SoluteLabs first?
 
 Our content should make the reader smarter, more informed, or better equipped to make a decision — regardless of whether they hire us. Content that leads with helpfulness builds trust. Content that leads with selling builds resistance. We always lead with helpfulness. The pitch, if present at all, is at the end and is light.
 
 ### Test 6 — The Stranger Test
+
 > Would someone who has never heard of SoluteLabs stop, read this, and find it immediately relevant to a problem they're feeling right now?
 
 If the content only resonates once you already know and trust SoluteLabs — it's doing Layer 2 work. That's valuable, but you also need content that pulls strangers in. Layer 2 content builds trust with people already in your orbit. Layer 1 content grows the orbit.

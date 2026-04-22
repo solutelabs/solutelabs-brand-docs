@@ -1,9 +1,10 @@
 # SoluteLabs Design System
 
-> Visual identity, design tokens, and component specs for solutelabs.com. If you are an AI assistant generating UI for SoluteLabs, start with the README.
+> Visual identity, design tokens, and component specs for solutelabs.com. If you are an AI assistant generating UI for SoluteLabs, start with DESIGN.md or the README.
 
 ## Design system (UI generation)
 
+- [DESIGN.md](../DESIGN.md): Standardized design system summary (google-labs-code/design.md format). YAML tokens + markdown rationale. Start here for structured token access.
 - [README](README.md): Entry point. Rules, voice, patterns, quick start.
 - [Tokens (docs)](tokens.md): Colors, typography, spacing, radius — with intent and Tailwind class mappings.
 - [Tokens (CSS)](tokens.css): Plain CSS custom properties for non-Tailwind projects.

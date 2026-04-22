@@ -20,7 +20,7 @@ If you aren't using Tailwind, use `tokens.css` instead — same values as plain 
 
 ## The stack
 
-```
+```text
 Token layer     → tokens.css (CSS variables, any stack)
                   tailwind.css (Tailwind v4 @theme)
                   tokens.md (documentation + usage rules)
@@ -51,9 +51,11 @@ Voice layer     → this file (design rules + copy guidance)
 8. **Stats use Archivo.** `22,000+`, `80%+`, `<1 week` are display text. The `+` is always `text-accent-secondary` (orange).
 
 9. **Eyebrows are all-caps, small, tracked wide.** Preceded by an orange square. Pattern:
-   ```
+
+   ```text
    font-title font-semibold text-label tracking-eyebrow uppercase
    ```
+
    With a `w-2 h-2 bg-accent-secondary` square before the text.
 
 10. **Content max-width is 1440px.** Background effects extend to viewport edge; content stays in the container.
@@ -73,7 +75,7 @@ The semantic color tokens use prefixes that avoid doubling with Tailwind utility
 
 Sizes use descriptive names — they don't override Tailwind's built-in `text-xs`/`text-sm`/etc.:
 
-```
+```text
 text-label     → 16px  (buttons, compact labels)
 text-body      → 18px  (paragraphs)
 text-lead      → 20px  (lead copy)
@@ -156,6 +158,7 @@ If you need a component not documented here (toast, dropdown, table):
 
 | File | Format | Purpose |
 |---|---|---|
+| [`../DESIGN.md`](../DESIGN.md) | Markdown + YAML | Standardized design system summary ([google-labs-code/design.md](https://github.com/google-labs-code/design.md) format). YAML tokens + rationale. |
 | `README.md` | Markdown | This file. Rules, voice, entry point |
 | `tokens.md` | Markdown | Token documentation with intent and rationale |
 | `tokens.css` | CSS | Plain CSS custom properties (any stack) |

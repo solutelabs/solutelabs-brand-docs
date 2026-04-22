@@ -103,14 +103,18 @@ Use this to calibrate voice quickly:
 The voice stays consistent. The tone flexes by context.
 
 ### Website (Homepage, Service Pages, Case Studies)
+
 **Tone:** Authoritative, outcome-driven, technically credible
+
 - Lead with outcomes and proof points, not descriptions
 - Use specific numbers, timelines, and named tools
 - Write for the CTO who has 30 seconds to decide if you're worth a call
 - Every page should answer: "What can they do, how fast, and can they prove it?"
 
 ### Blog Posts
+
 **Tone:** Insightful, educational, opinionated
+
 - Write like an experienced engineer sharing knowledge with peers
 - Take positions. "Here's how we decide" is better than "Here are some options"
 - Ground everything in real projects, real tools, real trade-offs
@@ -120,21 +124,27 @@ The voice stays consistent. The tone flexes by context.
 - Include relevant visuals, diagrams, or code snippets — minimum 2 per post
 
 ### Social Media (Company Page)
+
 **Tone:** Informative, sharp, occasionally playful
+
 - Short-form. Get to the point in the first line.
 - Share insights, not announcements. "We learned X" beats "We're thrilled to announce Y."
 - Use frameworks, numbered lists, and quick takes
 - Never post generic AI news without a specific SoluteLabs angle
 
 ### Email (Outbound, Cadences)
+
 **Tone:** Personal, direct, respectful of attention
+
 - Write like Karan or a senior team member, not like a marketing automation tool
 - Reference something specific about the recipient's company
 - Short. 4–6 sentences max for cold outreach.
 - CTA should be low-friction: "Worth a conversation?" not "Schedule a 30-minute demo"
 
 ### Proposals & Sales Docs
+
 **Tone:** Precise, confident, solutions-oriented
+
 - Lead with understanding of the client's problem
 - Show the approach before the price
 - Use case study proof points throughout
@@ -227,6 +237,7 @@ SoluteLabs is an AI-native company. We use AI tools extensively in content creat
 **The rule:** Content must feel authentic, informed, and distinctly SoluteLabs — regardless of whether a human, an LLM, or a combination wrote it. The test is not "what percentage was AI-generated" but "would a CTO reading this feel like they're hearing from experienced engineers who actually build this stuff?"
 
 **In practice:**
+
 - AI tools can and should assist with research, drafts, structure, and ideation
 - Every piece of content must be reviewed and refined by someone who understands the subject matter
 - If using an LLM to generate content, always ground it with specific SoluteLabs examples, real project details, and opinions that come from actual experience
