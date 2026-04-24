@@ -151,6 +151,40 @@ Named by intent, not arbitrary scale numbers:
 
 **Note:** Tailwind's built-in `text-xs` (12px), `text-sm` (14px), `text-base` (16px) remain available and unmodified. Use them for genuinely small UI text that falls below the brand type scale.
 
+### Fluid typography (website)
+
+The website uses fluid root font-size via `clamp()` so that all `rem`-based tokens scale smoothly with the viewport. No media queries needed for type sizing.
+
+```css
+/* Mobile: fixed 16px root */
+html, body {
+  font-size: 16px;
+}
+
+/* Desktop (≥892px): fluid root that scales with viewport */
+@media (min-width: 892px) {
+  html, body {
+    font-size: clamp(13.5px, calc(0.39vw + 8.5px), 24px);
+  }
+}
+```
+
+**How it works:** All type scale tokens are defined in `rem`. When the root font-size is 16px, `text-display` (3rem) renders at 48px. At narrower desktop viewports, the root shrinks and all text scales proportionally. At very wide viewports (≥1920px), the root approaches 16px again.
+
+**The px values in the Sizes table above are "base values at 16px root."** Actual rendered size depends on viewport width on desktop. On mobile (<892px), sizes are exactly as documented.
+
+| Viewport | Root font-size | `text-display` (3rem) | `text-body` (1.125rem) |
+|---|---|---|---|
+| 414px (mobile) | 16px | 48px | 18px |
+| 892px | ~12.0px | ~36px | ~13.5px |
+| 1255px | ~13.4px | ~40.2px | ~15.1px |
+| 1440px | ~14.1px | ~42.3px | ~15.9px |
+| 1920px | ~16.0px | ~48px | ~18px |
+
+**Why clamp instead of breakpoints?** Smooth scaling. No jump between sizes. One system handles every viewport width without per-breakpoint font-size overrides.
+
+**When NOT to use fluid sizing:** Decks, proposals, and print should use fixed `16px` root (no clamp). The fluid approach is for the website only.
+
 ### Letter spacing
 
 | Token | Value | Tailwind class | Use for |
@@ -304,6 +338,23 @@ Activate with `class="light"` or `data-theme="light"` on any container. All sema
 - **Cards use magnolia** (`#FBF6FF`), not plain white. This gives them a subtle purple warmth against the white page.
 - **Purple accent text shifts to `purple-300`** (`#4D1A98`) — dark enough to read on white while still reading as purple.
 - **The primary button stays white `bg-white`** in dark mode. In light mode, consider using `bg-accent-primary` (purple) with `text-foreground-inverse` (white text) for the primary CTA. This is a context decision, not a token flip.
+
+---
+
+## Blog dark/light toggle
+
+Blog posts default to dark but offer a reader toggle. This is the only place on the website where users can switch themes — all other pages are dark by default.
+
+**How it works:**
+
+1. A sun/moon toggle renders in the blog post header area
+2. Clicking it adds or removes `class="light"` on the blog content container
+3. Preference is stored in `localStorage` key `sl-theme-preference`
+4. On page load, a blocking script in `_document.tsx` reads localStorage and applies the class before paint (prevents flash of wrong theme)
+
+**What changes:** All semantic tokens flip automatically via the `.light` class defined in `tailwind.css`. No component code changes needed — the same `text-foreground`, `bg-surface`, `border-edge` classes render correctly in both modes.
+
+**Sanity rich text considerations:** Blog content rendered via PortableText may contain images with white/transparent backgrounds, embedded iframes, or code blocks. These need auditing to ensure legibility in both themes. Code blocks should use a theme-aware syntax highlighter. Images with transparent backgrounds may need a subtle background color in dark mode.
 
 ---
 
