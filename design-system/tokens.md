@@ -189,9 +189,9 @@ html, body {
 
 | Token | Value | Tailwind class | Use for |
 |---|---|---|---|
-| `tight` | `-0.02em` | `tracking-tight` | All headings and display text |
-| `normal` | `0` | `tracking-normal` | Default |
-| `wide` | `0.01em` | `tracking-wide` | Body copy in Manrope |
+| `tight` | `-0.02em` | `tracking-tight` | Retired 2026-08-20 — do not use (read cramped) |
+| `normal` | `0` | `tracking-normal` | Button labels |
+| `wide` | `0.025em` | `tracking-wide` | All text — display, headings, titles, body |
 | `eyebrow` | `0.08em` | `tracking-eyebrow` | ALL-CAPS eyebrow labels |
 
 ### Standard pairings
@@ -199,11 +199,12 @@ html, body {
 Copy these directly — they match the homepage:
 
 ```text
-Display/Hero  → font-title font-medium text-display tracking-tight
-H1            → font-title font-medium text-hero tracking-tight
-H2            → font-title font-medium text-heading tracking-tight
-H3            → font-title font-medium text-title-lg tracking-tight
-Card title    → font-title font-medium text-title tracking-tight
+Display/Hero  → font-title font-medium text-display tracking-wide
+H1            → font-title font-medium text-hero tracking-wide
+H2            → font-title font-light text-heading tracking-wide
+H3            → font-title font-light text-title-lg tracking-wide
+Card title    → font-title font-light text-title tracking-wide
+Small title   → font-title font-light text-title-sm tracking-wide   (FAQ questions, list titles)
 Eyebrow       → font-title font-semibold text-label tracking-eyebrow uppercase
 Body lead     → font-body text-lead tracking-wide
 Body          → font-body text-body tracking-wide

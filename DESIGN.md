@@ -42,37 +42,37 @@ typography:
     fontSize: 48px
     fontWeight: 500
     lineHeight: 56px
-    letterSpacing: -0.02em
+    letterSpacing: 0.025em
   hero:
     fontFamily: Archivo
-    fontSize: 40px
+    fontSize: 44px
     fontWeight: 500
     lineHeight: 56px
-    letterSpacing: -0.02em
+    letterSpacing: 0.025em
   heading:
     fontFamily: Archivo
-    fontSize: 32px
-    fontWeight: 500
-    lineHeight: 60px
-    letterSpacing: -0.02em
+    fontSize: 40px
+    fontWeight: 300
+    lineHeight: 48px
+    letterSpacing: 0.025em
   title-lg:
     fontFamily: Archivo
     fontSize: 28px
-    fontWeight: 500
+    fontWeight: 300
     lineHeight: 44px
-    letterSpacing: -0.02em
+    letterSpacing: 0.025em
   title:
     fontFamily: Archivo
     fontSize: 24px
-    fontWeight: 500
+    fontWeight: 300
     lineHeight: 40px
-    letterSpacing: -0.02em
+    letterSpacing: 0.025em
   title-sm:
     fontFamily: Archivo
     fontSize: 22px
-    fontWeight: 500
+    fontWeight: 300
     lineHeight: 36px
-    letterSpacing: -0.02em
+    letterSpacing: 0.025em
   lead:
     fontFamily: Manrope
     fontSize: 20px
@@ -213,11 +213,11 @@ Self-host both. Do not use Google CDN at runtime. Fallback stack: `system-ui, -a
 | Level | Family | Size | Weight | Use |
 |:------|:-------|:-----|:-------|:----|
 | Display | Archivo | 48px | 500 | Hero headline |
-| Hero | Archivo | 40px | 500 | H1 |
-| Heading | Archivo | 32px | 500 | H2, section headings |
-| Title LG | Archivo | 28px | 500 | H3 |
-| Title | Archivo | 24px | 500 | Card titles |
-| Title SM | Archivo | 22px | 500 | Eyebrow-adjacent headings |
+| Hero | Archivo | 44px | 500 | H1 |
+| Heading | Archivo | 40px | 300 | H2, section headings |
+| Title LG | Archivo | 28px | 300 | H3 |
+| Title | Archivo | 24px | 300 | Card titles |
+| Title SM | Archivo | 22px | 300 | FAQ questions, eyebrow-adjacent headings |
 | Lead | Manrope | 20px | 400 | Lead paragraphs |
 | Body | Manrope | 18px | 400 | Default paragraph copy |
 | Label | Archivo | 16px | 500 | Button text, compact labels |
@@ -225,9 +225,13 @@ Self-host both. Do not use Google CDN at runtime. Fallback stack: `system-ui, -a
 
 ### Letter spacing
 
-- Headings and display: `-0.02em` (tight)
-- Body copy in Manrope: `0.01em` (wide)
+- All text — display, headings, titles, body: `0.025em` (wide)
 - Eyebrows: `0.08em` (tracked wide, always uppercase)
+- Negative tracking is retired (2026-08-20) — `-0.02em` read cramped at every size. One letter-spacing everywhere.
+
+Weight note (2026-08-20): section headings and titles moved from Medium (500) to
+Light (300) — 500 with tight tracking read heavy and hard on the eye at the new
+larger sizes. Display/Hero keep Medium (500). Never use 500 for H2 and below.
 
 ## Layout & Spacing
 
