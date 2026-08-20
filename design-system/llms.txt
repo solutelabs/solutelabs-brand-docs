@@ -9,7 +9,8 @@
 - [Tokens (docs)](tokens.md): Colors, typography, spacing, radius — with intent and Tailwind class mappings.
 - [Tokens (CSS)](tokens.css): Plain CSS custom properties for non-Tailwind projects.
 - [Tokens (Tailwind v4)](tailwind.css): `@theme` block — drop into globals.css.
-- [Components](components.md): Button, Card, Input — full specs with all states.
+- [Components](components.md
+- design-system/site-patterns.md: Website patterns (Aug 2026): dark first fold, dotted pixel field, two-tier CTAs, nav reveal hysteresis, article typography, outline scrollspy, LabNotes naming): Button, Card, Input — full specs with all states.
 - [Slides](slides.md): Deck layouts — cover, section divider, case study, stats, leadership, closing.
 - [Logo](logo.md): Logo variants, usage rules, animation specs, implementation examples.
 - [Assets](assets/): SVGs, favicon, OG image, Lottie animations, fonts, client/partner logos, reference screenshots.

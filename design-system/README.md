@@ -164,6 +164,7 @@ If you need a component not documented here (toast, dropdown, table):
 | `tokens.css` | CSS | Plain CSS custom properties (any stack) |
 | `tailwind.css` | CSS | Tailwind v4 `@theme` block |
 | `components.md` | Markdown | Button, Card, Input — full specs with states |
+| `site-patterns.md` | Markdown | Website patterns from the Aug 2026 redesign: dark first fold, pixel field, CTA tiers, nav reveal, article reading experience, LabNotes naming |
 | `slides.md` | Markdown | Deck layouts: cover, section, case study, stats, leadership, closing, logo wall |
 | `logo.md` | Markdown | Logo usage rules, asset inventory, implementation examples |
 | `llms.txt` | Text | LLM discovery file — index of all design system + brand files |
@@ -173,6 +174,6 @@ If you need a component not documented here (toast, dropdown, table):
 
 ## Version
 
-**v1.1** — Dark + light mode tokens. 3 core components. Slide layouts. Client/partner logos. Derived from Figma file `Website-2025` (frame V4).
+**v1.2** — Adds `site-patterns.md` (Aug 2026 website redesign patterns). Previously: dark + light mode tokens, 3 core components, slide layouts, client/partner logos. Derived from Figma file `Website-2025` (frame V4) plus the live site.
 
 Planned v1.x: error/success/warning tokens, dropdown, checkbox/radio, nav/footer.
