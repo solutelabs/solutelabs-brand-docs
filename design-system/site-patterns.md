@@ -56,8 +56,16 @@ button — visual similarity implies equal priority and dilutes the primary.
 
 **Text links** inside content use white underline + arrow (the "Read case
 study" / "Read article" affordance) — never orange. Orange (`accent-secondary`)
-is a sparing highlight (stat digits, the accent underline, progress bar), never
-a link or control color.
+is a sparing highlight (stat digits, the accent underline, progress bar, the
+testimonial quote glyph), never a link or control color.
+
+**Hover never recolors text** (2026-08-20). Titles and links stay white on
+hover — no purple (`foreground-accent`) or any other hue shift. Hover feedback
+is spatial or tonal only: image zoom, arrow nudge, background/opacity change.
+
+**Section rhythm:** a section H2 sits 32px (mobile) / 48px (desktop) above its
+content — `mt-8 md:mt-12` or `gap-8 md:gap-12`. Consistent across LabNotes,
+testimonials, resources, and homepage sections.
 
 ### The play control (case-study films)
 

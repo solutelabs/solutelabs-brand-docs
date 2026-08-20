@@ -201,6 +201,25 @@ font-body text-body text-foreground-muted tracking-wide
 
 ---
 
+## Chip
+
+One chip language sitewide (added 2026-08-20 — first real use cases: case-study
+listing tags, blog category tag, blog filter nav).
+
+```
+rounded-full border border-accent-primary px-3 py-1.5
+font-manrope text-foreground-muted leading-none
+```
+
+- Size: `text-xs` in dense card meta (case-study tags), `text-sm` when the chip
+  stands alone as a label (blog category).
+- Selected/active state (filter chips only): solid `bg-foreground
+  text-foreground-inverse border-foreground` pill.
+- Hover on interactive chips: text brightens to `text-foreground`, optional
+  `bg-surface-overlay`. The border stays purple — no border color shift.
+
+---
+
 ## Input
 
 Form inputs for contact forms, newsletter signup, search.
@@ -278,6 +297,5 @@ Form inputs for contact forms, newsletter signup, search.
 - Tabs, accordions, modals
 - Tables, data grids
 - Toast, banner, alert
-- Badges, tags, chips
 
 Each gets added when the first real use case arrives.
